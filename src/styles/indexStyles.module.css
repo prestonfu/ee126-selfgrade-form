@@ -1,0 +1,22 @@
+body {
+    font-family: 'Open Sans'
+}
+
+.indexWrapper {
+    padding: 50px;
+}
+
+.title {
+    font-size: xx-large;
+    font-weight: bold;
+    color: black;
+    margin: auto 0;
+    text-align: center;
+}
+
+.description {
+    font-size: large;
+    color: grey;
+    text-align: center;
+
+}
