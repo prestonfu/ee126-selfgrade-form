@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=Open Sans');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
 body {
-    font-family: 'Open Sans'
+    font-family: 'Roboto', sans-serif;
 }
 
 .indexWrapper {
@@ -12,11 +15,17 @@ body {
     color: black;
     margin: auto 0;
     text-align: center;
+    font-family: 'Roboto', sans-serif;
 }
 
 .description {
     font-size: large;
     color: grey;
     text-align: center;
-
 }
+
+.homeworkTable {
+    font-size: 100%;
+    border-radius: 15px;
+    border: none !important;
+  }
