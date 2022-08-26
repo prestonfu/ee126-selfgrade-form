@@ -13,35 +13,36 @@ export default class Home extends React.Component {
         </div>
 
         <div className={indexStyles.description}>
-          Please select which homework you would like to self-grade from below:
+          Please select which homework you would like to self-grade from below. To learn more about how self-grades work, checkout <ExternalLink href="google.com">this page</ExternalLink>
         </div>
 
         <div>
-        <table className={`table table-hover table-primary ${indexStyles.homeworkTable}`}>
-          <thead style={{ border: "none" }}>
+        <table className={`table table-striped ${indexStyles.homeworkTable}`}>
+          <caption>The homeworks that have been assigned so far</caption>
+          <thead className={`thead-dark`}>
             <th>Homework</th>
             <th>Gradescope</th>
             <th>Solutions</th>
           </thead>
           <tbody>
             {homeworkData.map((homework) =>
-              <tr>
-                <td>
-                  <Link to={"/" + homework.pageName}>
-                    {homework.name}
-                  </Link>
-                </td>
-                <td>
-                  <ExternalLink href={homework.gradescopeLink}>
-                      Gradescope
-                  </ExternalLink>
-                </td>
-                <td>
-                  <ExternalLink href={homework.solutionsLink}>
-                      Solutions
-                  </ExternalLink>
-                </td>
-              </tr>
+                <tr>
+                  <td>
+                    <Link to={"/" + homework.pageName}>
+                      {homework.name}
+                    </Link>
+                  </td>
+                  <td>
+                    <ExternalLink href={homework.gradescopeLink}>
+                        Gradescope
+                    </ExternalLink>
+                  </td>
+                  <td>
+                    <ExternalLink href={homework.solutionsLink}>
+                        Solutions
+                    </ExternalLink>
+                  </td>
+                </tr>
             )}
           </tbody>
         </table>
