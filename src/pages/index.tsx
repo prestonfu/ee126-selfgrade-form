@@ -17,10 +17,10 @@ export default class Home extends React.Component {
         </div>
 
         <div>
-        <table className={`table table-striped ${indexStyles.homeworkTable}`}>
-          <caption>The homeworks that have been assigned so far</caption>
+        <table className={`table table-striped table-hover ${indexStyles.homeworkTable}`}>
+          <caption>All of the homeworks that have been assigned so far</caption>
           <thead className={`thead-dark`}>
-            <th>Homework</th>
+            <th>Homework #</th>
             <th>Gradescope</th>
             <th>Solutions</th>
           </thead>

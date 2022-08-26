@@ -24,9 +24,10 @@ body {
 }
 
 .homeworkTable {
-    font-size: 100%;
     border-collapse: separate !important;
     border-radius: 50px;
+    table-layout:fixed;
+    width: 100%;
 }
   table tr:last-child td:first-child {
     border-bottom-left-radius: 10px;
