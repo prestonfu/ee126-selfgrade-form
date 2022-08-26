@@ -1,6 +1,9 @@
 [
     {
         "name": "Homework 1",
+        "gradescopeLink": "fff",
+        "solutionsLink": "fff",
+        "pageName": "homework-1",
         "questions": [
             "1a",
             "1b",
@@ -10,6 +13,9 @@
     },
     {
         "name": "Homework 2",
+        "gradescopeLink": "fff",
+        "solutionsLink": "fff",
+        "pageName": "homework-2",
         "questions": [
             "1a",
             "1b",
@@ -21,6 +27,9 @@
     },
     {
         "name": "Homework 3",
+        "gradescopeLink": "fff",
+        "solutionsLink": "fff",
+        "pageName": "homework-3",
         "questions": [
             "1a",
             "1b",
