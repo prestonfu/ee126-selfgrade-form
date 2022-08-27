@@ -1,0 +1,17 @@
+.homeworkFormWrapper {
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 50px;
+    padding-bottom: 150px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: x-large;
+    text-align: center;
+}
+
+.sectionTitle {
+    font-weight: bold;
+    font-size: large;
+}
