@@ -48,8 +48,45 @@ export default class Home extends React.Component {
           <div className={homeworkFormStyles.title}>{this.props.pageContext.homework.name} Self-Grade</div>
           <div><ExternalLink href={this.props.pageContext.homework.gradescopeLink}>Gradescope Link</ExternalLink></div>
           <div><ExternalLink href={this.props.pageContext.homework.solutionsLink}>Solutions Link</ExternalLink></div>
-          <div className={homeworkFormStyles.description}>Description</div>
-          <div className={homeworkFormStyles.sectionTitle}>Self grade guide</div>
+          <div className={homeworkFormStyles.description}>
+            Self-grade your assignment submission by filling out all the fields. To learn more about self-grades and how you should go about them,
+            check out <ExternalLink href="https://bcourses.berkeley.edu/courses/1517338/files/folder/EE120-F22-HW?preview=8392592">this document</ExternalLink>
+          </div>
+          <div>
+            <div className={homeworkFormStyles.sectionTitle}>Self grade guide</div>
+            <table className={`table table-striped table-hover ${homeworkFormStyles.guideTable}`}>
+              <thead className={`thead-dark ${homeworkFormStyles.tableHead}`}>
+                <th>Score</th>
+                <th>Score Description</th>
+              </thead>
+              <tbody>
+                <tr>
+                  <td className={homeworkFormStyles.optionCol}>0</td>
+                  <td>Blank or did not attempt.</td>
+                </tr>
+                <tr>
+                  <td className={homeworkFormStyles.optionCol}>1</td>
+                  <td>Minimal progress; almost fully incorrect.</td>
+                </tr>
+                <tr>
+                  <td className={homeworkFormStyles.optionCol}>2</td>
+                  <td>You made initial progress but proceeded in the wrong direction.</td>
+                </tr>
+                <tr>
+                  <td className={homeworkFormStyles.optionCol}>3</td>
+                  <td>You made about half (or a little less) of the progress required for a correct solution.</td>
+                </tr>
+                <tr>
+                  <td className={homeworkFormStyles.optionCol}>4</td>
+                  <td>Your work was in the right direction, but missing one or a few critical steps.</td>
+                </tr>
+                <tr>
+                  <td className={homeworkFormStyles.optionCol}>5</td>
+                  <td>At least 80% of the problem is correct, with full effort and work shown. Complete work must beshown for full credit!</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
           <div>
             <form target="frame" id="selfGradeForm">
               <div className={homeworkFormStyles.sectionTitle}>Personal Info</div>

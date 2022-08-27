@@ -18,4 +18,20 @@
 
 iframe{
     display: none;
-  }
+}
+
+.guideTable {
+    /* margin: 0 auto ; */
+    border-collapse: separate !important;
+    table-layout:fixed;
+    width: 100%;
+    font-size: 75%;
+    background-color: rgb(250, 247, 243);
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.optionCol {
+    width: 10% !important;
+}
+

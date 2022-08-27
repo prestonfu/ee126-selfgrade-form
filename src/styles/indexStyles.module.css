@@ -29,10 +29,10 @@ body {
     table-layout:fixed;
     width: 100%;
 }
-  table tr:last-child td:first-child {
+.homeworkTable tr:last-child td:first-child {
     border-bottom-left-radius: 10px;
 }
 
-table tr:last-child td:last-child {
+.homeworkTable tr:last-child td:last-child {
     border-bottom-right-radius: 10px;
 }
