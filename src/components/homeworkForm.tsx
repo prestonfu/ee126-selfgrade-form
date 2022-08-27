@@ -18,16 +18,16 @@ export default class Home extends React.Component {
               <div className={homeworkFormStyles.sectionTitle}>Personal Info</div>
               <div class="form-group">
                 <label for="inputName">Name</label>
-                <input type="name" class="form-control" id="inputName" placeholder="Enter Name" />
+                <input type="name" class="form-control" id="inputName" placeholder="Enter Name" required/>
               </div>
               <div class="form-group">
                 <label for="inputEmail">Email address</label>
-                <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter Email" />
+                <input type="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter Email" required/>
                 <small id="emailHelp" class="form-text text-muted">Your Berkeley Email (ex. oski@berkeley.edu)</small>
               </div>
               <div class="form-group">
                 <label for="inputStudentID">Student ID</label>
-                <input class="form-control" id="inputStudentID" placeholder="Enter Student ID" />
+                <input class="form-control" id="inputStudentID" placeholder="Enter Student ID" required/>
               </div>
               <div className={homeworkFormStyles.sectionTitle}>Self Grade Questions</div>
               {this.props.pageContext.homework.questions.map((question) =>
@@ -35,7 +35,7 @@ export default class Home extends React.Component {
                       <div>Question {question}</div>
                       {selfGradeOptions.map((selfGradeOption) => 
                         <div class="form-check form-check-inline">
-                          <input class="form-check-input" type="radio" name={`${question}-inlineRadioOptions`} id={`${question}-${selfGradeOption}`} value={`${question}-option${selfGradeOption}`} />
+                          <input class="form-check-input" type="radio" name={`${question}-inlineRadioOptions`} id={`${question}-${selfGradeOption}`} value={`${question}-option${selfGradeOption}`} required/>
                           <label class="form-check-label" for={`${question}-${selfGradeOption}`}>{selfGradeOption}</label>
                         </div>
                       )}
@@ -66,6 +66,7 @@ export default class Home extends React.Component {
                     <textarea class="form-control" id="feedback" rows="3"></textarea>
                   </div>
                 </div>
+              <button class="btn btn-primary" type="submit">Generate</button>
             </form>
           </div>
       </div>
