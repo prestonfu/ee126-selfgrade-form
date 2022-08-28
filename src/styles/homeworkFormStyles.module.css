@@ -35,3 +35,12 @@ iframe{
     width: 10% !important;
 }
 
+.inputField {
+    padding-left: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+}
+
+.submitButton {
+    margin: 0 auto !important;
+}

@@ -21,11 +21,13 @@ export default class Home extends React.Component {
         "name": form["inputName"].value,
         "email": form["inputEmail"].value,
         "studentID": form["inputStudentID"].value,
+        "difficulty": document.querySelector(`input[name="difficulty-inlineRadioOptions"]:checked`).value,
+        "hours": form["inputHours"].value,
+        "feedback": form["feedback"].value,
         "questions": {}
       }
       for (var question of this.props.pageContext.homework.questions) {
         formObj["questions"][question] = document.querySelector(`input[name="${question}-inlineRadioOptions"]:checked`).value.substr(-1);
-
       }
       console.log(formObj)
       this.downloadObjectAsJson(formObj, this.props.pageContext.homework.name + "-selfgrade")
@@ -90,25 +92,25 @@ export default class Home extends React.Component {
           <div>
             <form target="frame" id="selfGradeForm">
               <div className={homeworkFormStyles.sectionTitle}>Personal Info</div>
-              <div className="form-group">
+              <div className={`form-group ${homeworkFormStyles.inputField}`}>
                 <label htmlFor="inputName">Name</label>
-                <input name="inputName" type="name" className="form-control" id="inputName" placeholder="Enter Name" required/>
+                <input name="inputName" type="text" className="form-control" id="inputName" placeholder="Enter Name" required/>
               </div>
-              <div className="form-group">
+              <div className={`form-group ${homeworkFormStyles.inputField}`}>
                 <label htmlFor="inputEmail">Email address</label>
                 <input name="inputEmail" type="email" className="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter Email" required/>
                 <small id="emailHelp" className="form-text text-muted">Your Berkeley Email (ex. oski@berkeley.edu)</small>
               </div>
-              <div className="form-group">
+              <div className={`form-group ${homeworkFormStyles.inputField}`}>
                 <label htmlFor="inputStudentID">Student ID</label>
-                <input name="inputStudentID" className="form-control" id="inputStudentID" placeholder="Enter Student ID" required/>
+                <input name="inputStudentID" type="text" className="form-control" id="inputStudentID" placeholder="Enter Student ID" required/>
               </div>
               <div className={homeworkFormStyles.sectionTitle}>Self Grade Questions</div>
               {this.props.pageContext.homework.questions.map((question) =>
-                    <div>
+                    <div className={homeworkFormStyles.inputField}>
                       <div>Question {question}</div>
                       {this.state.selfGradeOptions.map((selfGradeOption) => 
-                        <div className="form-check form-check-inline">
+                        <div className={`form-check form-check-inline`}>
                           <input className="form-check-input" type="radio" name={`${question}-inlineRadioOptions`} id={`${question}-${selfGradeOption}`} value={`${question}-option${selfGradeOption}`} required/>
                           <label className="form-check-label" htmlFor={`${question}-${selfGradeOption}`}>{selfGradeOption}</label>
                         </div>
@@ -117,17 +119,19 @@ export default class Home extends React.Component {
                 )}
                 <div>
                   <div className={homeworkFormStyles.sectionTitle}>Feedback (Optional)</div>
-                  <div>
-                  <div>Rate the difficulty of this homework</div>
-                    {this.state.difficultyOptions.map((difficultyOption) => 
-                      <div className="form-check form-check-inline">
-                        <input name={`difficulty-${difficultyOption}`} className="form-check-input" type="radio" name={`difficulty-inlineRadioOptions`} id={`difficulty-${difficultyOption}`} value={`difficulty-option${difficultyOption}`} />
-                        <label className="form-check-label" htmlFor={`difficulty-${difficultyOption}`}>{difficultyOption}</label>
-                      </div>
-                    )}
+                  <div className={homeworkFormStyles.inputField}>
+                    <div>Rate the difficulty of this homework</div>
+                    <div>
+                      {this.state.difficultyOptions.map((difficultyOption) => 
+                        <div className={`form-check form-check-inline`}>
+                          <input className="form-check-input" type="radio" name={`difficulty-inlineRadioOptions`} id={`difficulty-${difficultyOption}`} value={`${difficultyOption}`} />
+                          <label className="form-check-label" htmlFor={`difficulty-${difficultyOption}`}>{difficultyOption}</label>
+                        </div>
+                      )}
+                    </div>
                   </div>
                   <div>
-                    <div className="form-group">
+                    <div className={`form-group ${homeworkFormStyles.inputField}`}>
                       <label htmlFor="inputHours">How many hours did this homework take you?</label>
                       <input name="inputHours" type="number" className="form-control" min="0" id="inputHours" placeholder="Enter # of Hours" />
                     </div>
@@ -135,12 +139,12 @@ export default class Home extends React.Component {
                   <div>
                     
                   </div>
-                  <div className="form-group">
+                  <div className={`form-group ${homeworkFormStyles.inputField}`}>
                     <label htmlFor="feedback">Do you have any other feedback for this homework?</label>
                     <textarea name="feedback" className="form-control" id="feedback" rows="3"></textarea>
                   </div>
                 </div>
-              <button className="btn btn-primary" type="submit" onClick={this.convertFormToObject}>Generate</button>
+              <button className={`btn btn-primary ${homeworkFormStyles.submitButton}`} type="submit" onClick={this.convertFormToObject}>Generate</button>
             </form>
           </div>
           <iframe name="frame"></iframe>
