@@ -21,16 +21,21 @@ export default class Home extends React.Component {
         "name": form["inputName"].value,
         "email": form["inputEmail"].value,
         "studentID": form["inputStudentID"].value,
-        "difficulty": document.querySelector(`input[name="difficulty-inlineRadioOptions"]:checked`).value,
         "hours": form["inputHours"].value,
         "feedback": form["feedback"].value,
         "questions": {}
       }
+      if (document.querySelector(`input[name="difficulty-inlineRadioOptions"]:checked`)) {
+        formObj["difficulty"] =  document.querySelector(`input[name="difficulty-inlineRadioOptions"]:checked`).value
+      } else {
+        formObj["difficulty"] = ""
+      }
+
       for (var question of this.props.pageContext.homework.questions) {
         formObj["questions"][question] = document.querySelector(`input[name="${question}-inlineRadioOptions"]:checked`).value.substr(-1);
       }
       console.log(formObj)
-      this.downloadObjectAsJson(formObj, this.props.pageContext.homework.name + "-selfgrade")
+      this.downloadObjectAsJson(formObj, this.props.pageContext.homework.pageName + "-selfgrade")
     }
   }
 
@@ -145,7 +150,8 @@ export default class Home extends React.Component {
                     <textarea name="feedback" className="form-control" id="feedback" rows="3"></textarea>
                   </div>
                 </div>
-              <button className={`btn btn-primary ${homeworkFormStyles.submitButton}`} type="submit" onClick={this.convertFormToObject}>GENERATE SELF-GRADE</button>
+              <button id="submitButton" className={`btn btn-primary ${homeworkFormStyles.submitButton}`} type="submit" onClick={this.convertFormToObject}>GENERATE SELF-GRADE</button>
+              <label className="form-text text-muted" htmlFor="submitButton">Pressing this button will generate and download the JSON Self-Grade file (which you should then submit to the Gradescope assignment)</label>
             </form>
           </div>
           <iframe name="frame"></iframe>
