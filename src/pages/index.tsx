@@ -28,7 +28,7 @@ export default class Home extends React.Component {
             {homeworkData.map((homework) =>
                 <tr>
                   <td>
-                    <Link to={"/" + homework.pageName}>
+                    <Link to={homework.pageName}>
                       {homework.name}
                     </Link>
                   </td>
