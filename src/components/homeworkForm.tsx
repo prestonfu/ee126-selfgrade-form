@@ -48,11 +48,12 @@ export default class Home extends React.Component {
     return (
         <div className={homeworkFormStyles.homeworkFormWrapper}>
           <div className={homeworkFormStyles.title}>{this.props.pageContext.homework.name} Self-Grade</div>
-          <div><ExternalLink href={this.props.pageContext.homework.gradescopeLink}>Gradescope Link</ExternalLink></div>
-          <div><ExternalLink href={this.props.pageContext.homework.solutionsLink}>Solutions Link</ExternalLink></div>
           <div className={homeworkFormStyles.description}>
+            <div>Here is the gradescope link for this assignment: <ExternalLink href={this.props.pageContext.homework.gradescopeLink}>Gradescope Link</ExternalLink></div>
+            <div>Here is the link to the solutions for this assignment: <ExternalLink href={this.props.pageContext.homework.solutionsLink}>Solutions Link</ExternalLink></div>
             Self-grade your assignment submission by filling out all the fields. To learn more about self-grades and how you should go about them,
             check out <ExternalLink href="https://bcourses.berkeley.edu/courses/1517338/files/folder/EE120-F22-HW?preview=8392592">this document</ExternalLink>
+            <div className={homeworkFormStyles.note}>Note: Optional problems are left out of the self-grade form, as they are not counted towards your grade.</div>
           </div>
           <div>
             <div className={homeworkFormStyles.sectionTitle}>Self grade guide</div>
@@ -144,7 +145,7 @@ export default class Home extends React.Component {
                     <textarea name="feedback" className="form-control" id="feedback" rows="3"></textarea>
                   </div>
                 </div>
-              <button className={`btn btn-primary ${homeworkFormStyles.submitButton}`} type="submit" onClick={this.convertFormToObject}>Generate</button>
+              <button className={`btn btn-primary ${homeworkFormStyles.submitButton}`} type="submit" onClick={this.convertFormToObject}>GENERATE SELF-GRADE</button>
             </form>
           </div>
           <iframe name="frame"></iframe>
