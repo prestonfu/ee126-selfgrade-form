@@ -32,13 +32,14 @@ iframe{
     /* margin: 0 auto ; */
     border-collapse: separate !important;
     width: 90%;
-    font-size: 75%;
+    font-size: 80%;
     background-color: rgb(250, 247, 243);
     border-radius: 10px;
 }
 
 .optionCol {
-    width: 10% !important;
+    width: 20% !important;
+    text-align: center;
 }
 
 .inputField {
@@ -56,4 +57,12 @@ iframe{
 
 .note {
     font-weight: bold;
+}
+
+.jsonOutput {
+    background-color: rgb(250, 247, 243);
+    width: 100%;
+    border-radius: 15px;
+    padding: 15px;
+    margin-top: 5px;
 }

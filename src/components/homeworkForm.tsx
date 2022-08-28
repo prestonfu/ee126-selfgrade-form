@@ -8,35 +8,43 @@ export default class Home extends React.Component {
     super(props);
     this.convertFormToObject=this.convertFormToObject.bind(this);
     this.downloadObjectAsJson=this.downloadObjectAsJson.bind(this);
+    this.submitForm=this.submitForm.bind(this)
     this.state = {
       selfGradeOptions: [0, 1, 2, 3, 4, 5],
-      difficultyOptions: ["1 (least difficult)", "2", "3", "4", "5", "6", "7", "8", "9", "10 (most difficult)"]
+      difficultyOptions: ["1 (least difficult)", "2", "3", "4", "5", "6", "7", "8", "9", "10 (most difficult)"],
+      submitted: false
     }
   }
 
-  convertFormToObject() {
-    if (document.getElementById("selfGradeForm").checkValidity()) {
-      var form = document.getElementById("selfGradeForm").elements;
-      var formObj = {
-        "name": form["inputName"].value,
-        "email": form["inputEmail"].value,
-        "studentID": form["inputStudentID"].value,
-        "hours": form["inputHours"].value,
-        "feedback": form["feedback"].value,
-        "questions": {}
+    submitForm() {
+      if (document.getElementById("selfGradeForm").checkValidity()) {
+        var formObj = this.convertFormToObject()
+        this.downloadObjectAsJson(formObj, this.props.pageContext.homework.pageName + "-selfgrade")
+        this.setState({submitted: true})
       }
-      if (document.querySelector(`input[name="difficulty-inlineRadioOptions"]:checked`)) {
-        formObj["difficulty"] =  document.querySelector(`input[name="difficulty-inlineRadioOptions"]:checked`).value
-      } else {
-        formObj["difficulty"] = ""
-      }
-
-      for (var question of this.props.pageContext.homework.questions) {
-        formObj["questions"][question] = document.querySelector(`input[name="${question}-inlineRadioOptions"]:checked`).value.substr(-1);
-      }
-      console.log(formObj)
-      this.downloadObjectAsJson(formObj, this.props.pageContext.homework.pageName + "-selfgrade")
     }
+
+  convertFormToObject() {
+    var form = document.getElementById("selfGradeForm").elements;
+    var formObj = {
+      "name": form["inputName"].value,
+      "email": form["inputEmail"].value,
+      "studentID": form["inputStudentID"].value,
+      "hours": form["inputHours"].value,
+      "feedback": form["feedback"].value,
+      "questions": {}
+    }
+    if (document.querySelector(`input[name="difficulty-inlineRadioOptions"]:checked`)) {
+      formObj["difficulty"] =  document.querySelector(`input[name="difficulty-inlineRadioOptions"]:checked`).value
+    } else {
+      formObj["difficulty"] = ""
+    }
+
+    for (var question of this.props.pageContext.homework.questions) {
+      formObj["questions"][question] = document.querySelector(`input[name="${question}-inlineRadioOptions"]:checked`).value.substr(-1);
+    }
+    console.log(formObj)
+    return formObj
   }
 
   downloadObjectAsJson(exportObj, exportName){
@@ -150,9 +158,17 @@ export default class Home extends React.Component {
                     <textarea name="feedback" className="form-control" id="feedback" rows="3"></textarea>
                   </div>
                 </div>
-              <button id="submitButton" className={`btn btn-primary ${homeworkFormStyles.submitButton}`} type="submit" onClick={this.convertFormToObject}>GENERATE SELF-GRADE</button>
+              <button id="submitButton" className={`btn btn-primary ${homeworkFormStyles.submitButton}`} type="submit" onClick={this.submitForm}>GENERATE SELF-GRADE</button>
               <label className="form-text text-muted" htmlFor="submitButton">Pressing this button will generate and download the JSON Self-Grade file (which you should then submit to the Gradescope assignment)</label>
             </form>
+            {this.state.submitted? 
+              <div>
+                <hr />
+                <div>
+                  If you encounter issues with downloading the file, feel free to copy the below JSON into a JSON file and submit that to the gradescope assignment
+                </div>
+                <pre className={homeworkFormStyles.jsonOutput}>{JSON.stringify(this.convertFormToObject(), null, 2)}</pre>
+              </div>: <div/>}
           </div>
           <iframe name="frame"></iframe>
       </div>
