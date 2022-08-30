@@ -10,7 +10,7 @@ The website used by students to submit their self-grades for homework assignment
 - `gradescopeLink`: the link to the gradescope assignment for the homework
 - `solutionsLink`: the link to the solutions for the homework
 - `pageName`: the name of the page for the self-grade for this homework (which will be part of the URL)
-- `questions`: a list of all the questions in the HW (excluding optional problems)
+- `questions`: a list of all the questions in the HW (excluding optional problems) with their point values included
 
 After commiting to the repo, a github action will be run which will deploy the site.
 To deploy the github site manually, pull the repo, make your changes, and run `npm run deploy`
