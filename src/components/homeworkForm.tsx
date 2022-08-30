@@ -41,7 +41,10 @@ export default class Home extends React.Component {
     }
 
     for (var question of this.props.pageContext.homework.questions) {
-      formObj["questions"][question] = document.querySelector(`input[name="${question}-inlineRadioOptions"]:checked`).value.substr(-1);
+      formObj["questions"][question["name"]] = {
+                                                "grade": document.querySelector(`input[name="${question["name"]}-inlineRadioOptions"]:checked`).value.substr(-1),
+                                                "points": question["points"]
+                                               }
     }
     console.log(formObj)
     return formObj
@@ -122,11 +125,11 @@ export default class Home extends React.Component {
               <div className={homeworkFormStyles.sectionTitle}>Self Grade Questions</div>
               {this.props.pageContext.homework.questions.map((question) =>
                     <div className={homeworkFormStyles.inputField}>
-                      <div>Question {question}</div>
+                      <div>Question {question["name"]} <span className={homeworkFormStyles.questionPoints}>({question["points"]} points)</span></div>
                       {this.state.selfGradeOptions.map((selfGradeOption) => 
                         <div className={`form-check form-check-inline`}>
-                          <input className="form-check-input" type="radio" name={`${question}-inlineRadioOptions`} id={`${question}-${selfGradeOption}`} value={`${question}-option${selfGradeOption}`} required/>
-                          <label className="form-check-label" htmlFor={`${question}-${selfGradeOption}`}>{selfGradeOption}</label>
+                          <input className="form-check-input" type="radio" name={`${question["name"]}-inlineRadioOptions`} id={`${question["name"]}-${selfGradeOption}`} value={`${question["name"]}-option${selfGradeOption}`} required/>
+                          <label className="form-check-label" htmlFor={`${question["name"]}-${selfGradeOption}`}>{selfGradeOption}</label>
                         </div>
                       )}
                     </div>
