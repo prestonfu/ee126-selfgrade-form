@@ -36,10 +36,7 @@ def grade():
                 return
             score += int(qn["grade"]) / 5 * float(qn["points"])
             total += float(qn["points"])
-        if abs(total - 100) > tol:
-            write_result(0, "Total number of points, %d, did not add to 100." % total + generic_error_message)
-            return
 
-        write_result(score, "Your total score was %0.4f/100." % score)
+        write_result(score, "Your total score was %0.4f/%d." % (score, total))
 
 grade()
