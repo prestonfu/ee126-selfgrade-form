@@ -34,5 +34,33 @@
                 "points": 15
             }
         ]   
+    }, 
+    {
+        "name": "Homework 2",
+        "gradescopeLink": "https://www.gradescope.com/courses/401330/assignments/2248381",
+        "solutionsLink": "https://bcourses.berkeley.edu/courses/1517338/files/folder/EE120-F22-HW/EE120-F22-HW02?preview=84056271",
+        "pageName": "homework-2",
+        "questions": [
+            {
+                "name": "2.1",
+                "points": 20
+            },
+            {
+                "name": "2.2",
+                "points": 30
+            },
+            {
+                "name": "2.3",
+                "points": 15
+            },
+            {
+                "name": "2.4",
+                "points": 20
+            },
+            {
+                "name": "2.6",
+                "points": 20
+            }
+        ]   
     }
 ]
