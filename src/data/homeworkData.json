@@ -78,5 +78,29 @@
                 "points": 30
             }
         ]   
-    } 
+    },
+    {
+        "name": "Homework 3",
+        "gradescopeLink": "https://www.gradescope.com/courses/401330/assignments/2269193",
+        "solutionsLink": "https://bcourses.berkeley.edu/courses/1517338/files/folder/EE120-F22-HW/EE120-F22-HW03?preview=84207820",
+        "pageName": "homework-3",
+        "questions": [
+            {
+                "name": "3.1",
+                "points": 30
+            },
+            {
+                "name": "3.2",
+                "points": 25
+            },
+            {
+                "name": "3.3",
+                "points": 25
+            },
+            {
+                "name": "3.4",
+                "points": 20
+            }
+        ]   
+    }
 ]
