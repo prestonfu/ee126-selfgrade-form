@@ -62,5 +62,21 @@
                 "points": 20
             }
         ]   
-    }
+    },
+    {
+        "name": "Lab 1",
+        "gradescopeLink": "https://www.gradescope.com/courses/401330/assignments/2233902",
+        "solutionsLink": "https://bcourses.berkeley.edu/courses/1517338/files/folder/EE120-F22-Lab/lab1?preview=84207692",
+        "pageName": "lab-1",
+        "questions": [
+            {
+                "name": "1(c): It's just a phase",
+                "points": 10
+            },
+            {
+                "name": "2: Get Rect",
+                "points": 30
+            }
+        ]   
+    }, 
 ]
