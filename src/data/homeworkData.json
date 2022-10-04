@@ -103,4 +103,32 @@
             }
         ]   
     }
+    {
+        "name": "Homework 4",
+        "gradescopeLink": "https://www.gradescope.com/courses/401330/assignments/2301200",
+        "solutionsLink": "https://bcourses.berkeley.edu/courses/1517338/files/folder/EE120-F22-HW/EE120-F22-HW04?preview=84290463",
+        "pageName": "homework-4",
+        "questions": [
+            {
+                "name": "4.1",
+                "points": 10
+            },
+            {
+                "name": "4.2a",
+                "points": 25
+            },
+            {
+                "name": "4.2b",
+                "points": 25
+            },
+            {
+                "name": "4.2c",
+                "points": 10
+            }
+            {
+                "name": "4.3",
+                "points": 30
+            }
+        ]   
+    }
 ]
