@@ -7,7 +7,7 @@ tol = 1e-6
 
 def write_result(score, output):
     with open('/autograder/results/results.json', 'w') as f:
-        f.write('{"score": %d, "output": "%s"}' % (score, output))
+        f.write('{"score": %0.4f, "output": "%s"}' % (score, output))
 
 def grade():
     files = os.listdir('/autograder/submission')
