@@ -183,5 +183,33 @@
                 "points": 5
             }
         ]   
-    }
+    },
+    {
+        "name": "Lab 2",
+        "gradescopeLink": "https://www.gradescope.com/courses/401330/assignments/2290832",
+        "solutionsLink": "Not available atm",
+        "pageName": "lab-2",
+        "questions": [
+            {
+                "name": "Question 1a: Piecewise Constant Signals",
+                "points": 8.5
+            },
+            {
+                "name": "Question 1b: The Edge Detector as a DT Differentiator",
+                "points": 16
+            },
+            {
+                "name": "Question 1c: \"Differentiating\" Noise",
+                "points": 10
+            },
+            {
+                "name": "Question 2a: Noise Reduction",
+                "points": 17
+            },
+            {
+                "name": "Question 2b: Extracting Trends from Data",
+                "points": 7
+            }
+        ]   
+    },
 ]
