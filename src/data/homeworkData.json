@@ -211,5 +211,63 @@
                 "points": 7
             }
         ]   
+    },
+    {
+        "name": "Homework 7",
+        "gradescopeLink": "https://www.gradescope.com/courses/401330/assignments/2403494",
+        "solutionsLink": "https://bcourses.berkeley.edu/courses/1517338/files/folder/EE120-F22-HW/EE120-F22-HW07?preview=84575417",
+        "pageName": "homework-7",
+        "questions": [
+            {
+                "name": "7.1a",
+                "points": 6
+            },
+            {
+                "name": "7.1b",
+                "points": 6
+            },
+            {
+                "name": "7.1c",
+                "points": 6
+            },
+            {
+                "name": "7.1d",
+                "points": 6
+            },
+            {
+                "name": "7.1e",
+                "points": 6
+            },
+            
+            {
+                "name": "7.2a",
+                "points": 22
+            },
+            {
+                "name": "7.2b",
+                "points": 8
+            },
+            {
+                "name": "7.2c",
+                "points": 8
+            },
+
+            {
+                "name": "7.3a",
+                "points": 8
+            },
+            {
+                "name": "7.3b",
+                "points": 8
+            },
+            {
+                "name": "7.3c",
+                "points": 8
+            },
+            {
+                "name": "7.3d",
+                "points": 8
+            }
+        ]   
     }
 ]
