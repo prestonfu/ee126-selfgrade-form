@@ -269,5 +269,67 @@
                 "points": 8
             }
         ]   
+    },
+    {
+        "name": "Homework 8",
+        "gradescopeLink": "https://www.gradescope.com/courses/401330/assignments/2419601",
+        "solutionsLink": "https://bcourses.berkeley.edu/courses/1517338/files/folder/EE120-F22-HW/EE120-F22-HW08?preview=84625659",
+        "pageName": "homework-8",
+        "questions": [
+            {
+                "name": "8.2a",
+                "points": 6
+            },
+            {
+                "name": "8.2b",
+                "points": 6
+            },
+            {
+                "name": "8.2c",
+                "points": 6
+            },
+            {
+                "name": "8.2d",
+                "points": 6
+            },
+            {
+                "name": "8.2e",
+                "points": 6
+            },
+            
+            {
+                "name": "8.3a",
+                "points": 10
+            },
+            {
+                "name": "8.2b",
+                "points": 10
+            },
+            {
+                "name": "8.3c",
+                "points": 10
+            },
+
+            {
+                "name": "8.4a",
+                "points": 15
+            },
+            {
+                "name": "8.4b",
+                "points": 5
+            },
+            {
+                "name": "8.4c",
+                "points": 5
+            },
+            {
+                "name": "8.4d",
+                "points": 5
+            },
+            {
+                "name": "8.4e",
+                "points": 10
+            }
+        ]   
     }
 ]
