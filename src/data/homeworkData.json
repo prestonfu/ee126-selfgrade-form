@@ -364,5 +364,58 @@
                 "points": 5
             }
         ]   
+    },
+    {
+        "name": "Homework 9",
+        "gradescopeLink": "https://www.gradescope.com/courses/401330/assignments/2415692",
+        "solutionsLink": "https://bcourses.berkeley.edu/courses/1517338/files/folder/EE120-F22-HW/EE120-F22-HW09?preview=84688287",
+        "pageName": "homework-9",
+        "questions": [
+            {
+                "name": "9.1a",
+                "points": 7
+            },
+            {
+                "name": "9.1b",
+                "points": 7
+            },
+            {
+                "name": "9.1c",
+                "points": 7
+            },
+            {
+                "name": "9.1d",
+                "points": 7
+            },
+            {
+                "name": "9.1e",
+                "points": 7
+            },
+            {
+                "name": "9.1f",
+                "points": 7
+            },
+            {
+                "name": "9.2",
+                "points": 0
+            },
+            {
+                "name": "9.3",
+                "points": 0
+            },
+            {
+                "name": "9.4",
+                "points": 13
+            },
+            {
+                "name": "9.5a",
+                "points": 20
+            },
+            {
+                "name": "9.5b",
+                "points": 25
+            }
+        ]
+
     }
 ]
