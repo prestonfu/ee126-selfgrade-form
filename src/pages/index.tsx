@@ -13,7 +13,7 @@ export default class Home extends React.Component {
         </div>
 
         <div className={indexStyles.description}>
-          Please select which homework you would like to self-grade from below. To learn more about how self-grades work, checkout <ExternalLink href="https://bcourses.berkeley.edu/courses/1517338/files/folder/EE120-F22-HW?preview=83925924">this document</ExternalLink>
+          Please select which homework you would like to self-grade from below. To learn more about how self-grades work, checkout <ExternalLink href="https://ee120-course-staff.github.io/course-site/policies/#instructions">the course website</ExternalLink>
         </div>
 
         <div>
