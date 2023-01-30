@@ -1,2 +1,38 @@
 [
+  {
+        "name": "Homework 1",
+        "gradescopeLink": https://www.gradescope.com/courses/493762/assignments/2596946",
+        "solutionsLink": "__",
+        "pageName": "homework-1",
+        "questions": [
+            {
+                "name": "1.1",
+                "points": 17.5
+            },
+            {
+                "name": "1.2",
+                "points": 20
+            },
+            {
+                "name": "1.3",
+                "points": 10
+            },
+            {
+                "name": "1.4",
+                "points": 10
+            },
+            {
+                "name": "1.5",
+                "points": 17.5
+            },
+            {
+                "name": "1.6",
+                "points": 10
+            },
+            {
+                "name": "1.7",
+                "points": 15
+            }
+        ]   
+    }
 ]
