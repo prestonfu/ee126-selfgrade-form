@@ -33,50 +33,86 @@
                 "name": "1.7",
                 "points": 15
             }
-        ]   
-    },
+          ]   
+  },
   {
-        "name": "Homework 2",
-        "gradescopeLink": "https://www.gradescope.com/courses/493762/assignments/2596946",
-        "solutionsLink": "https://bcourses.berkeley.edu/courses/1522650/files/folder/EE120-S23-HW/EE120-S23-HW02?preview=85303960",
-        "pageName": "homework-2",
+          "name": "Homework 2",
+          "gradescopeLink": "https://www.gradescope.com/courses/493762/assignments/2617422",
+          "solutionsLink": "https://bcourses.berkeley.edu/courses/1522650/files/folder/EE120-S23-HW/EE120-S23-HW02?preview=85303960",
+          "pageName": "homework-2",
+          "questions": [
+              {
+                  "name": "2.1",
+                  "points": 15
+              },
+              {
+                  "name": "2.2",
+                  "points": 25
+              },
+              {
+                  "name": "2.3",
+                  "points": 15
+              },
+              {
+                  "name": "2.4",
+                  "points": 25
+              },
+              {
+                  "name": "2.5",
+                  "points": 20
+              }
+          ]
+  },
+  {
+      "name": "Lab 1",
+      "gradescopeLink": "https://www.gradescope.com/courses/493762/assignments/2638224",
+      "solutionsLink": "https://bcourses.berkeley.edu/courses/1522650/files/folder/EE120-S23-Labs/lab1/solution?preview=85438701",
+      "pageName": "lab-1",
+      "questions": [
+          {
+              "name": "1(c): It's just a phase",
+              "points": 10
+          },
+          {
+              "name": "2: Get Rect",
+              "points": 30
+          }
+      ]   
+  },
+  {
+        "name": "Homework 3",
+        "gradescopeLink": "https://www.gradescope.com/courses/493762/assignments/2660787",
+        "solutionsLink": "https://bcourses.berkeley.edu/courses/1522650/files/folder/EE120-S23-HW/EE120-S23-HW03?preview=85437475",
+        "pageName": "homework-3",
         "questions": [
             {
-                "name": "2.1",
-                "points": 15
-            },
-            {
-                "name": "2.2",
-                "points": 25
-            },
-            {
-                "name": "2.3",
-                "points": 15
-            },
-            {
-                "name": "2.4",
-                "points": 25
-            },
-            {
-                "name": "2.5",
-                "points": 20
-            }
-        ]
-    },
-    {
-        "name": "Lab 1",
-        "gradescopeLink": "https://www.gradescope.com/courses/493762/assignments/2638224",
-        "solutionsLink": "https://bcourses.berkeley.edu/courses/1522650/files/folder/EE120-S23-Labs/lab1/solution?preview=85438701",
-        "pageName": "lab-1",
-        "questions": [
-            {
-                "name": "1(c): It's just a phase",
+                "name": "3.1(a) - (b)",
                 "points": 10
             },
             {
-                "name": "2: Get Rect",
-                "points": 30
+                "name": "3.1(c) - (f)",
+                "points": 20
+            },
+            {
+                "name": "3.2(a)",
+                "points": 10
+            },
+            {
+                "name": "3.2(b) - (c)",
+                "points": 15
+            },
+            {
+                "name": "3.3",
+                "points": 25
+            },
+            {
+                "name": "3.4(a)",
+                "points": 10
+            },
+            {
+                "name": "3.4(b)",
+                "points": 10
             }
-        ]   
-    } 
+        ]
+  }
 ]
