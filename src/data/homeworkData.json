@@ -114,5 +114,61 @@
                 "points": 10
             }
         ]
+  },
+  {
+        "name": "Homework 4",
+        "gradescopeLink": "https://www.gradescope.com/courses/493762/assignments/2683186",
+        "solutionsLink": "https://bcourses.berkeley.edu/courses/1522650/files/folder/EE120-S23-HW/EE120-S23-HW04?preview=85509666",
+        "pageName": "homework-4",
+        "questions": [
+            {
+                "name": "4.1(a)",
+                "points": 4.5
+            },
+            {
+                "name": "4.1(b) - (c)",
+                "points": 9
+            },
+            {
+                "name": "4.1(d) - (e)",
+                "points": 9
+            },
+            {
+                "name": "4.2(a)",
+                "points": 8
+            },
+            {
+                "name": "4.2(b)",
+                "points": 8
+            },
+            {
+                "name": "4.2(c)",
+                "points": 6
+            },
+            {
+                "name": "4.2(d)",
+                "points": 6
+            },
+            {
+                "name": "4.3(a)",
+                "points": 13
+            },
+            {
+                "name": "4.3(b)",
+                "points": 13
+            },
+            {
+                "name": "4.3(c)",
+                "points": 3.5
+            },
+            {
+                "name": "4.4(a) - (b)",
+                "points": 10
+            },
+            {
+                "name": "4.4(c) - (d)",
+                "points": 10
+            }
+        ]
   }
 ]
