@@ -198,5 +198,58 @@
                 "points": 7
             }
         ]   
-  }
+  },
+  {
+    "name": "Homework 5",
+    "gradescopeLink": "https://www.gradescope.com/courses/493762/assignments/2740029",
+    "solutionsLink": "https://bcourses.berkeley.edu/courses/1522650/files/folder/EE120-S23-HW/EE120-S23-HW05?preview=85635702",
+    "pageName": "homework-5",
+    "questions": [
+        {
+            "name": "5.1a",
+            "points": 10
+        },
+        {
+            "name": "5.1b",
+            "points": 10
+        },
+        {
+            "name": "5.1c",
+            "points": 10
+        },
+        {
+            "name": "5.1d",
+            "points": 10
+        },
+        {
+            "name": "5.1e",
+            "points": 10
+        },
+        {
+            "name": "5.1f",
+            "points": 10
+        },
+
+        {
+            "name": "5.2aa",
+            "points": 5
+        },
+        {
+            "name": "5.2b",
+            "points": 15
+        },
+        {
+            "name": "5.2c",
+            "points": 5
+        },
+        {
+            "name": "5.2d",
+            "points": 10
+        },
+        {
+            "name": "5.2e",
+            "points": 5
+        }
+    ]   
+}
 ]
