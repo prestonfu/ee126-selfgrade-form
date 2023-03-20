@@ -252,4 +252,36 @@
         }
     ]   
 }
+{
+    "name": "Homework 6",
+    "gradescopeLink": "https://www.gradescope.com/courses/493762/assignments/2753392",
+    "solutionsLink": "https://bcourses.berkeley.edu/courses/1522650/files/folder/EE120-S23-HW/EE120-S23-HW06?preview=85701113",
+    "pageName": "homework-6",
+    "questions": [
+        {
+            "name": "6.1",
+            "points": 20
+        },
+        {
+            "name": "6.2",
+            "points": 10
+        }, 
+        {
+            "name": "6.3",
+            "points": 20
+        },
+        {
+            "name": "6.4",
+            "points": 20
+        },
+        {
+            "name": "6.5",
+            "points": 15
+        },
+        {
+            "name": "6.6",
+            "points": 15
+        }
+    ]   
+}
 ]
