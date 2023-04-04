@@ -283,5 +283,38 @@
             "points": 15
         }
     ]   
+},
+{
+    "name": "Lab 3",
+    "gradescopeLink": "https://www.gradescope.com/courses/493762/assignments/2794867/",
+    "solutionsLink": "https://bcourses.berkeley.edu/courses/1522650/files/folder/EE120-S23-Labs/lab3/lab3-sol",
+    "pageName": "lab-3",
+    "questions": [
+        {
+            "name": "2b: Time to compute fifty 4096-point DFTs",
+            "points": 5
+        },
+
+        {
+            "name": "3b: Homemade FFT Benchmarking",
+            "points": 5
+        },
+        {
+            "name": "3b: Numpy FFT Benchmarking",
+            "points": 5
+        },
+        {
+            "name": "4b: Cross-Correlation Not Overlapped",
+            "points": 5
+        },
+        {
+            "name": "4b: Cross correlation Identical",
+            "points": 5
+        },
+        {
+            "name": "4e: Realignment",
+            "points": 5
+        }
+    ] 
 }
 ]
