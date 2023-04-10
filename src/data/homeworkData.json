@@ -316,5 +316,41 @@
             "points": 5
         }
     ] 
+},
+{
+    "name": "Homework 7",
+    "gradescopeLink": "https://www.gradescope.com/courses/493762/assignments/2809604/",
+    "solutionsLink": "https://bcourses.berkeley.edu/courses/1522650/files/folder/EE120-S23-HW/EE120-S23-HW07?preview=85841768",
+    "pageName": "homework-7",
+    "questions": [
+        {
+            "name": "7.1(ab)",
+            "points": 20
+        },
+        {
+            "name": "7.1(cde)",
+            "points": 20
+        }, 
+        {
+            "name": "7.2(a)",
+            "points": 10
+        },
+        {
+            "name": "7.2(b)",
+            "points": 10
+        },
+        {
+            "name": "7.2(c)",
+            "points": 10
+        },
+        {
+            "name": "7.3(ab)",
+            "points": 15
+        },
+        {
+            "name": "7.3(cd)",
+            "points": 15
+        }
+    ]   
 }
 ]
