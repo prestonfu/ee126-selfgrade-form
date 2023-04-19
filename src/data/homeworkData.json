@@ -388,5 +388,21 @@
             "points": 15
         }
     ]   
-}
+  },
+  {
+    "name": "Lab 4",
+    "gradescopeLink": "https://www.gradescope.com/courses/493762/assignments/2791569",
+    "solutionsLink": "https://bcourses.berkeley.edu/courses/1522650/files/folder/EE120-S23-Labs/lab4/solution?",
+    "pageName": "lab-4",
+    "questions": [
+        {
+            "name": "1a: Spatial Pooling",
+            "points": 10
+        },
+        {
+            "name": "1b: Statistical Normalization",
+            "points": 10
+        }
+    ] 
+  }
 ]
