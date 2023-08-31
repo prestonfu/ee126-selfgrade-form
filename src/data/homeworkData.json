@@ -1,2 +1,38 @@
 [
+  {
+    "name": "Homework 1",
+    "gradescopeLink": "https://www.gradescope.com/courses/573746/assignments/3177475",
+    "solutionsLink": "https://bcourses.berkeley.edu/courses/1527328/files/folder/EE120-FA23-HW-SOLS?preview=86701768",
+    "pageName": "homework-1",
+    "questions": [
+      {
+          "name": "1.1",
+          "points": 17.5
+      },
+      {
+          "name": "1.2",
+          "points": 20
+      },
+      {
+          "name": "1.3",
+          "points": 10
+      },
+      {
+          "name": "1.4",
+          "points": 15
+      },
+      {
+          "name": "1.5",
+          "points": 17.5
+      },
+      {
+          "name": "1.6",
+          "points": 5
+      },
+      {
+          "name": "1.7",
+          "points": 15
+      }
+    ]   
+  }
 ]
