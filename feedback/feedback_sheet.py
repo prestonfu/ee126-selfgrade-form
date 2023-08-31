@@ -22,8 +22,8 @@ if __name__ == "__main__":
             form = json.load(f)
             row = {
                 "Feedback": form["feedback"] if "feedback" in form else "N/A",
-                "Difficulty (10 scale)": form["hours"] if "hours" in form else "N/A",
-                "Hours Spent": form["difficulty"] if "difficulty" in form else "N/A"
+                "Hours Spent": form["hours"] if "hours" in form else "N/A",
+                "Difficulty (10 scale)": form["difficulty"] if "difficulty" in form else "N/A"
                 }
             output = output.append(row, ignore_index=True)
 
