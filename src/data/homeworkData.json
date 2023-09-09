@@ -34,5 +34,33 @@
           "points": 15
       }
     ]   
+  },
+    {
+    "name": "Homework 2",
+    "gradescopeLink": "https://www.gradescope.com/courses/573746/assignments/3296898",
+    "solutionsLink": "https://bcourses.berkeley.edu/courses/1527328/files/folder/Homework/Homework%2002?preview=86788080",
+    "pageName": "homework-2",
+    "questions": [
+      {
+          "name": "2.1",
+          "points": 15
+      },
+      {
+          "name": "2.2",
+          "points": 15
+      },
+      {
+          "name": "2.3",
+          "points": 30
+      },
+      {
+          "name": "2.4",
+          "points": 10
+      },
+      {
+          "name": "2.5",
+          "points": 20
+      }
+    ]   
   }
 ]
