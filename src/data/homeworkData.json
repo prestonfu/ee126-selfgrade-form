@@ -62,5 +62,33 @@
           "points": 25
       }
     ]   
+  },
+  {
+    "name": "Homework 3",
+    "gradescopeLink": "https://www.gradescope.com/courses/573746/assignments/3321241",
+    "solutionsLink": "https://bcourses.berkeley.edu/courses/1527328/files/folder/Homework/Homework%2003?preview=86828323",
+    "pageName": "homework-3",
+    "questions": [
+      {
+          "name": "3.1",
+          "points": 17.5
+      },
+      {
+          "name": "3.2",
+          "points": 20
+      },
+      {
+          "name": "3.3",
+          "points": 10
+      },
+      {
+          "name": "3.4",
+          "points": 15
+      },
+      {
+          "name": "3.5",
+          "points": 17.5
+      }
+    ]   
   }
 ]
