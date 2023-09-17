@@ -89,6 +89,22 @@
           "name": "3.5",
           "points": 25
       }
+    ]
+  },
+  {
+    "name": "Lab 1",
+    "gradescopeLink": "https://www.gradescope.com/courses/573746/assignments/3349605",
+    "solutionsLink": "https://bcourses.berkeley.edu/courses/1527328/files/folder/Labs/Lab%201/Solutions?preview=86869731",
+    "pageName": "lab-1",
+    "questions": [
+      {
+        "name": "1(c): It's just a phase",
+        "points": 10
+      },
+      {
+          "name": "2: Get Rect",
+          "points": 30
+      }
     ]   
   }
 ]
