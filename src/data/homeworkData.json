@@ -106,5 +106,29 @@
           "points": 30
       }
     ]   
+  },
+  {
+    "name": "Homework 4",
+    "gradescopeLink": "https://www.gradescope.com/courses/573746/assignments/3276766",
+    "solutionsLink": "https://bcourses.berkeley.edu/courses/1527328/files/folder/Homework/Homework%2004?preview=86908572",
+    "pageName": "homework-4",
+    "questions": [
+      {
+          "name": "4.1",
+          "points": 17.5
+      },
+      {
+          "name": "4.2",
+          "points": 17.5
+      },
+      {
+          "name": "4.3",
+          "points": 35
+      },
+      {
+          "name": "4.4",
+          "points": 30
+      }
+    ]
   }
 ]
