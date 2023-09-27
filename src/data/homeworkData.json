@@ -130,5 +130,33 @@
           "points": 30
       }
     ]
+  },
+  {
+    "name": "Homework 5",
+    "gradescopeLink": "https://www.gradescope.com/courses/573746/assignments/3397941",
+    "solutionsLink": "https://bcourses.berkeley.edu/courses/1527328/files/folder/Homework/Homework%2005?preview=86981722",
+    "pageName": "homework-5",
+    "questions": [
+      {
+          "name": "5.1 (a) - (b)",
+          "points": 20
+      },
+      {
+          "name": "5.1 (c) - (e)",
+          "points": 20
+      },
+      {
+          "name": "5.2(a)",
+          "points": 20
+      },
+      {
+          "name": "5.2 (b)",
+          "points": 20
+      },
+      {
+          "name": "5.3",
+          "points": 20
+      }
+    ]
   }
 ]
