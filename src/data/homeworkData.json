@@ -158,5 +158,33 @@
           "points": 20
       }
     ]
+  },
+  {
+      "name": "Lab 2",
+      "gradescopeLink": "https://www.gradescope.com/courses/573746/assignments/3397945",
+      "solutionsLink": "https://bcourses.berkeley.edu/courses/1527328/files/folder/Labs/Lab%202/Solutions",
+      "pageName": "lab-2",
+      "questions": [
+          {
+              "name": "1(a): Piecewise Constant Signals",
+              "points": 8.5
+          },
+          {
+              "name": "1(b): The Edge Detector as a DT Differentiator",
+              "points": 16
+          },
+          {
+              "name": "1(c): Differentiating Noise",
+              "points": 10
+          },
+          {
+              "name": "2(a): Noise Reduction",
+              "points": 17
+          },
+          {
+              "name": "2(b): Extracting Trends from Data",
+              "points": 7
+          }
+      ]
   }
 ]
