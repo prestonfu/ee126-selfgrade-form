@@ -186,5 +186,29 @@
               "points": 7
           }
       ]
+  },
+  {
+    "name": "Homework 6",
+    "gradescopeLink": "https://www.gradescope.com/courses/573746/assignments/3470789",
+    "solutionsLink": "https://bcourses.berkeley.edu/courses/1527328/files/folder/Homework/Homework%2006?preview=87127325",
+    "pageName": "homework-6",
+    "questions": [
+      {
+          "name": "6.1",
+          "points": 25
+      },
+      {
+          "name": "6.2",
+          "points": 35
+      },
+      {
+          "name": "6.3 (a) - (c)",
+          "points": 25
+      },
+      {
+          "name": "6.3 (d), (f)",
+          "points": 15
+      },
+    ]
   }
 ]
