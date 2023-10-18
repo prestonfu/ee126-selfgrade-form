@@ -210,5 +210,53 @@
           "points": 15
       }
     ]
+  },
+  {
+    "name": "Homework 7",
+    "gradescopeLink": "https://www.gradescope.com/courses/573746/assignments/3549984",
+    "solutionsLink": "https://bcourses.berkeley.edu/courses/1527328/files/folder/Homework/Homework%2007?preview=87196767",
+    "pageName": "homework-7",
+    "questions": [
+      {
+          "name": "7.1 (a) - (c)",
+          "points": 10
+      },
+      {
+          "name": "7.1 (d) - (e)",
+          "points": 10
+      },
+      {
+          "name": "7.2 (a) - (c)",
+          "points": 10
+      },
+      {
+          "name": "7.2 (d) - (e)",
+          "points": 10
+      },
+      {
+          "name": "7.3",
+          "points": 15
+      },
+      {
+          "name": "7.4 (a)",
+          "points": 5
+      },
+      {
+          "name": "7.4 (b)",
+          "points": 10
+      },
+      {
+          "name": "7.5",
+          "points": 10
+      },
+      {
+          "name": "7.6 (a)",
+          "points": 10
+      },
+      {
+          "name": "7.6 (b) - (c)"
+          "points": 10
+      }
+    ]
   }
 ]
