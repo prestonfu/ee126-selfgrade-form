@@ -274,11 +274,11 @@
           "points": 5
       },
       {
-          "name": "3(b): Benchmarking our Homemade FFT"
+          "name": "3(b): Benchmarking our Homemade FFT",
           "points": 10
       },
       {
-          "name": "4(b): Cross-Correlation - Conceptual"
+          "name": "4(b): Cross-Correlation - Conceptual",
           "points": 6
       }
     ]  
