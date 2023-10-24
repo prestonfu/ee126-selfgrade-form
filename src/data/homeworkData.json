@@ -271,7 +271,7 @@
       },
       {
           "name": "2(b): Benchmarking the Matrix-Vector DFT",
-          "points": 7
+          "points": 5
       },
       {
           "name": "3(b): Benchmarking our Homemade FFT",
@@ -279,7 +279,7 @@
       },
       {
           "name": "4(b): Cross-Correlation - Conceptual",
-          "points": 8
+          "points": 7
       }
     ]  
   }
