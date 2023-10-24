@@ -267,19 +267,19 @@
     "questions": [
       {
         "name": "1(b): DFT of song Clip",
-        "points": 10
+        "points": 12
       },
       {
           "name": "2(b): Benchmarking the Matrix-Vector DFT",
-          "points": 5
+          "points": 7
       },
       {
           "name": "3(b): Benchmarking our Homemade FFT",
-          "points": 10
+          "points": 12
       },
       {
           "name": "4(b): Cross-Correlation - Conceptual",
-          "points": 6
+          "points": 8
       }
     ]  
   }
