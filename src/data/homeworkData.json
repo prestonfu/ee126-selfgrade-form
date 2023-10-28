@@ -282,5 +282,53 @@
           "points": 7
       }
     ]  
-  }
+  },
+  {
+    "name": "Homework 8",
+    "gradescopeLink": "https://www.gradescope.com/courses/573746/assignments/3545471",
+    "solutionsLink": "https://bcourses.berkeley.edu/courses/1527328/files/folder/Homework/Homework%2008?preview=87290502",
+    "pageName": "homework-8",
+    "questions": [
+      {
+          "name": "8.1 (a) - (c)",
+          "points": 10
+      },
+      {
+          "name": "8.1 (d) - (e)",
+          "points": 10
+      },
+      {
+          "name": "8.2 (a) - (b)",
+          "points": 5
+      },
+      {
+          "name": "8.2 (c) - (d)",
+          "points": 15
+      },
+      {
+          "name": "8.3 (a)",
+          "points": 20
+      },
+      {
+          "name": "8.3 (b)",
+          "points": 10
+      },
+      {
+          "name": "8.3 (c)",
+          "points": 10
+      },
+      {
+          "name": "8.4 (a)",
+          "points": 10
+      },
+      {
+          "name": "8.4 (b)",
+          "points": 0
+      },
+      {
+          "name": "8.4 (c) - (d)",
+          "points": 10
+      }
+    ]
+  },
 ]
