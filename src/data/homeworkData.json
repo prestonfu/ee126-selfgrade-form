@@ -330,5 +330,41 @@
           "points": 10
       }
     ]
+  },
+  {
+    "name": "Homework 9",
+    "gradescopeLink": "https://www.gradescope.com/courses/573746/assignments/3549984",
+    "solutionsLink": "https://bcourses.berkeley.edu/courses/1527328/files/folder/Homework/Homework%2007?preview=87196767",
+    "pageName": "homework-7",
+    "questions": [
+      {
+          "name": "9.1 (a)",
+          "points": 15
+      },
+      {
+          "name": "9.1 (b)",
+          "points": 20
+      },
+      {
+          "name": "9.2 (a)",
+          "points": 15
+      },
+      {
+          "name": "9.2 (b)",
+          "points": 20
+      },
+      {
+          "name": "9.3 (a) - (b)",
+          "points": 10
+      },
+      {
+          "name": "9.3 (c) - (d)",
+          "points": 10
+      },
+      {
+          "name": "9.3 (e)",
+          "points": 10
+      }
+    ]
   }
 ]
