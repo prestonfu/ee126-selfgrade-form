@@ -339,11 +339,15 @@
     "questions": [
       {
           "name": "9.1 (a)",
-          "points": 15
+          "points": 10
       },
       {
           "name": "9.1 (b)",
-          "points": 20
+          "points": 10
+      },
+      {
+          "name": "9.1 (c)",
+          "points": 15
       },
       {
           "name": "9.2 (a)",
