@@ -370,5 +370,21 @@
           "points": 10
       }
     ]
+  },
+  { 
+    "name": "Lab 4",
+    "gradescopeLink": "https://www.gradescope.com/courses/573746/assignments/3600124",
+    "solutionsLink": "https://bcourses.berkeley.edu/courses/1527328/files/folder/Labs/Lab%204?preview=87455476",
+    "pageName": "lab-4",
+    "questions": [
+      {
+        "name": "1(a): Spatial Pooling",
+        "points": 10
+      },
+      {
+          "name": "1(b): Statistical Normilization",
+          "points": 10
+      }
+    ]  
   }
 ]
