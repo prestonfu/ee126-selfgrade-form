@@ -386,5 +386,57 @@
           "points": 10
       }
     ]  
-  }
+  },
+  {
+    "name": "Homework 10",
+    "gradescopeLink": "https://www.gradescope.com/courses/573746/assignments/3703644",
+    "solutionsLink": "https://bcourses.berkeley.edu/courses/1527328/files/folder/Homework/Homework%2010?preview=87501665",
+    "pageName": "homework-10",
+    "questions": [
+      {
+          "name": "10.1 (a)",
+          "points": 10
+      },
+      {
+          "name": "10.1 (b)",
+          "points": 10
+      },
+      {
+          "name": "10.1 (c)",
+          "points": 10
+      },
+      {
+          "name": "10.1 (d)",
+          "points": 10
+      },
+      {
+          "name": "10.2",
+          "points": 10
+      },
+      {
+          "name": "10.3",
+          "points": 15
+      },
+      {
+          "name": "10.4 (a)",
+          "points": 5
+      },
+      {
+          "name": "10.4 (b)",
+          "points": 5
+      },
+      {
+          "name": "10.5 (a)",
+          "points": 10
+      },
+      {
+          "name": "10.5 (b)",
+          "points": 10
+      },
+      {
+          "name": "10.5 (c)",
+          "points": 5
+      }
+    ]
+  },
 ]
