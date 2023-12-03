@@ -470,5 +470,25 @@
           "points": 15
       }
     ]
+  },
+  {
+    "name": "Lab 5: Deconvolution",
+    "gradescopeLink": "https://www.gradescope.com/courses/573746/assignments/3754221",
+    "solutionsLink": "https://bcourses.berkeley.edu/courses/1527328/files/folder/Labs/Lab%205?preview=87619412",
+    "pageName": "lab-5-deconvolution",
+    "questions": [
+      {
+          "name": "5.1b (5 free response questions)",
+          "points": 30
+      },
+      {
+          "name": "5.2b (3 free response questions)",
+          "points": 15
+      },
+      {
+          "name": "5.2d (1 free response question)",
+          "points": 5
+      }
+    ]
   }
 ]
