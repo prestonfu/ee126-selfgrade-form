@@ -478,17 +478,57 @@
     "pageName": "lab-5-deconvolution",
     "questions": [
       {
-          "name": "5.1b (5 free response questions)",
+          "name": "1b (5 free response questions)",
           "points": 30
       },
       {
-          "name": "5.2b (3 free response questions)",
+          "name": "2b (3 free response questions)",
           "points": 15
       },
       {
-          "name": "5.2d (1 free response question)",
+          "name": "2d (1 free response question)",
           "points": 5
       }
     ]
-  }
+  },
+  {
+  "name": "Lab 5: Wavelet",
+  "gradescopeLink": "https://www.gradescope.com/courses/573746/assignments/3754308",
+  "solutionsLink": "https://bcourses.berkeley.edu/courses/1527328/files/folder/Labs/Lab%205?preview=87619592",
+  "pageName": "lab-5-wavelet",
+  "questions": [
+    {
+        "name": "1b",
+        "points": 5
+    },
+    {
+        "name": "1c",
+        "points": 5
+    },
+    {
+        "name": "1e",
+        "points": 5
+    },
+    {
+        "name": "1f",
+        "points": 5
+    },
+    {
+        "name": "2b",
+        "points": 5
+    },
+    {
+        "name": "q3a (2 questions)",
+        "points": 10
+    },
+    {
+        "name": "q3b",
+        "points": 5
+    },
+    {
+        "name": "q3c",
+        "points": 5
+    }
+  ]
+}
 ]
