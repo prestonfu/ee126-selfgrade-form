@@ -492,45 +492,45 @@
     ]
   },
   {
-  "name": "Lab 5: Wavelet",
-  "gradescopeLink": "https://www.gradescope.com/courses/573746/assignments/3754308",
-  "solutionsLink": "https://bcourses.berkeley.edu/courses/1527328/files/folder/Labs/Lab%205?preview=87619592",
-  "pageName": "lab-5-wavelet",
-  "questions": [
-    {
-        "name": "1b",
-        "points": 5
-    },
-    {
-        "name": "1c",
-        "points": 5
-    },
-    {
-        "name": "1e",
-        "points": 5
-    },
-    {
-        "name": "1f",
-        "points": 5
-    },
-    {
-        "name": "2b",
-        "points": 5
-    },
-    {
-        "name": "q3a (2 questions)",
-        "points": 10
-    },
-    {
-        "name": "q3b",
-        "points": 5
-    },
-    {
-        "name": "q3c",
-        "points": 5
-    }
-  ]
-},
+    "name": "Lab 5: Wavelet",
+    "gradescopeLink": "https://www.gradescope.com/courses/573746/assignments/3754308",
+    "solutionsLink": "https://bcourses.berkeley.edu/courses/1527328/files/folder/Labs/Lab%205?preview=87619592",
+    "pageName": "lab-5-wavelet",
+    "questions": [
+      {
+          "name": "1b",
+          "points": 5
+      },
+      {
+          "name": "1c",
+          "points": 5
+      },
+      {
+          "name": "1e",
+          "points": 5
+      },
+      {
+          "name": "1f",
+          "points": 5
+      },
+      {
+          "name": "2b",
+          "points": 5
+      },
+      {
+          "name": "q3a (2 questions)",
+          "points": 10
+      },
+      {
+          "name": "q3b",
+          "points": 5
+      },
+      {
+          "name": "q3c",
+          "points": 5
+      }
+    ]
+  },
   {
     "name": "Lab 5: MP3",
     "gradescopeLink": "https://www.gradescope.com/courses/573746/assignments/3702075",
@@ -544,6 +544,38 @@
       {
           "name": "2(c)",
           "points": 15
+      }
+    ]
+  },
+  {
+    "name": "Lab 5: Controls",
+    "gradescopeLink": "https://www.gradescope.com/courses/573746/assignments/3702075",
+    "solutionsLink": "https://bcourses.berkeley.edu/courses/1527328/files/folder/Labs/Lab%205?preview=87619412",
+    "pageName": "lab-5-controls",
+    "questions": [
+      {
+          "name": "1(c) Open Loop Analysis",
+          "points": 10
+      },
+      {
+          "name": "2(a) Dampening Analysis",
+          "points": 10
+      },
+      {
+          "name": "2(a) Critically Dampened Plots",
+          "points": 5
+      },
+      {
+          "name": "2(b) Gaussian Noise",
+          "points": 5
+      },
+      {
+          "name": "2(b) Lowpass Behavior",
+          "points": 15
+      },
+      {
+          "name": "3 Deadband Stability",
+          "points": 10
       }
     ]
   }
