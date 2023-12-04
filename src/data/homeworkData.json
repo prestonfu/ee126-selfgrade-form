@@ -578,5 +578,25 @@
           "points": 10
       }
     ]
+  },
+  {
+    "name": "Lab 5: Shazam",
+    "gradescopeLink": "https://www.gradescope.com/courses/573746/assignments/3758254",
+    "solutionsLink": "https://bcourses.berkeley.edu/courses/1527328/files/folder/Labs/Lab%205?preview=87627257",
+    "pageName": "lab-5-shazam",
+    "questions": [
+      {
+          "name": "1(c) Spectrograms of Songs",
+          "points": 5
+      },
+      {
+          "name": "2(a) Peak Finding",
+          "points": 5
+      },
+      {
+          "name": "3(c) Blocked Speaker",
+          "points": 5
+      }
+    ]
   }
 ]
