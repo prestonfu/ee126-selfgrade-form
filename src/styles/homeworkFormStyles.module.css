@@ -70,3 +70,12 @@ iframe{
 .questionPoints {
     color: grey;
 }
+
+.commentField {
+  padding-bottom: 20px;
+  width: 100%;
+}
+
+.comment {
+  font-size: smaller;
+}

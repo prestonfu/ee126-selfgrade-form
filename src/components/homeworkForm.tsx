@@ -10,7 +10,7 @@ export default class Home extends React.Component {
     this.downloadObjectAsJson=this.downloadObjectAsJson.bind(this);
     this.submitForm=this.submitForm.bind(this)
     this.state = {
-      selfGradeOptions: [0, 1, 2, 3, 4, 5],
+      selfGradeOptions: [0, 2, 5, 8, 10],
       difficultyOptions: ["1 (least difficult)", "2", "3", "4", "5", "6", "7", "8", "9", "10 (most difficult)"],
       submitted: false
     }
@@ -67,12 +67,12 @@ export default class Home extends React.Component {
           <div className={homeworkFormStyles.description}>
             <div>Here is the gradescope link for this assignment: <ExternalLink href={this.props.pageContext.homework.gradescopeLink}>Gradescope Link</ExternalLink></div>
             <div>Here is the link to the solutions for this assignment: <ExternalLink href={this.props.pageContext.homework.solutionsLink}>Solutions Link</ExternalLink></div>
-            Self-grade your assignment submission by filling out all the fields. To learn more about self-grades and how you should go about them,
-            check out <ExternalLink href="https://ee120-course-staff.github.io/course-site/policies/#self-grades">the course website</ExternalLink>
+            <div>Self-grade your assignment submission by filling out all the fields. To learn more about self-grades, how they factor into your final assignment grade,
+            and how you should go about them, check out <ExternalLink href="https://ee120-course-staff.github.io/course-site/policies/#self-grades">the course website</ExternalLink>.</div>
             <div className={homeworkFormStyles.note}>Note: Optional problems are left out of the self-grade form, as they are not counted towards your grade.</div>
           </div>
           <div>
-            <div className={homeworkFormStyles.sectionTitle}>Self grade guide</div>
+            <div className={homeworkFormStyles.sectionTitle}>Self-grade rubric</div>
             <table className={`table table-striped table-hover ${homeworkFormStyles.guideTable}`}>
               <thead className={`thead-dark ${homeworkFormStyles.tableHead}`}>
                 <th>Score</th>
@@ -81,27 +81,23 @@ export default class Home extends React.Component {
               <tbody>
                 <tr>
                   <td className={homeworkFormStyles.optionCol}>0</td>
-                  <td>Blank or did not attempt.</td>
-                </tr>
-                <tr>
-                  <td className={homeworkFormStyles.optionCol}>1</td>
-                  <td>Minimal progress; almost fully incorrect.</td>
+                  <td>Didn’t attempt or very wrong.</td>
                 </tr>
                 <tr>
                   <td className={homeworkFormStyles.optionCol}>2</td>
-                  <td>You made initial progress but proceeded in the wrong direction.</td>
-                </tr>
-                <tr>
-                  <td className={homeworkFormStyles.optionCol}>3</td>
-                  <td>You made about half (or a little less) of the progress required for a correct solution.</td>
-                </tr>
-                <tr>
-                  <td className={homeworkFormStyles.optionCol}>4</td>
-                  <td>Your work was in the right direction, but missing one or a few critical steps.</td>
+                  <td>Got started and made some progress, but went off in the wrong direction or with no clear direction.</td>
                 </tr>
                 <tr>
                   <td className={homeworkFormStyles.optionCol}>5</td>
-                  <td>At least 80% of the problem is correct, with full effort and work shown. Complete work must beshown for full credit!</td>
+                  <td>Right direction and got halfway there.</td>
+                </tr>
+                <tr>
+                  <td className={homeworkFormStyles.optionCol}>8</td>
+                  <td>Mostly right but a minor thing missing or wrong.</td>
+                </tr>
+                <tr>
+                  <td className={homeworkFormStyles.optionCol}>10</td>
+                  <td>100% correct, with full effort and work shown. Complete work must be shown for full credit!</td>
                 </tr>
               </tbody>
             </table>
@@ -124,6 +120,7 @@ export default class Home extends React.Component {
               </div>
               <div className={homeworkFormStyles.sectionTitle}>Self Grade Questions</div>
               {this.props.pageContext.homework.questions.map((question) =>
+                  <>
                     <div className={homeworkFormStyles.inputField}>
                       <div>Question {question["name"]} <span className={homeworkFormStyles.questionPoints}>({question["points"]} points)</span></div>
                       {this.state.selfGradeOptions.map((selfGradeOption) => 
@@ -132,7 +129,12 @@ export default class Home extends React.Component {
                           <label className="form-check-label" htmlFor={`${question["name"]}-${selfGradeOption}`}>{selfGradeOption}</label>
                         </div>
                       )}
+                      <div className={`form-group ${homeworkFormStyles.commentField}`}>
+                        <label className={homeworkFormStyles.comment} htmlFor="input">Comment</label>
+                        <input name="inputComment" type="text" className="form-control" id="inputName" placeholder="Enter comment for a 2, 5, or 8 score" />
+                      </div>
                     </div>
+                  </>
                 )}
                 <div>
                   <div className={homeworkFormStyles.sectionTitle}>Feedback (Optional)</div>
@@ -164,7 +166,7 @@ export default class Home extends React.Component {
               <button id="submitButton" className={`btn btn-primary ${homeworkFormStyles.submitButton}`} type="submit" onClick={this.submitForm}>GENERATE SELF-GRADE</button>
               <label className="form-text text-muted" htmlFor="submitButton">Pressing this button will generate and download the JSON Self-Grade file (which you should then submit to the Gradescope assignment)</label>
             </form>
-            {this.state.submitted? 
+            {this.state.submitted ? 
               <div>
                 <hr />
                 <div>
