@@ -2,7 +2,7 @@
 The website used by students to submit their self-grades for homework assignments.
 
 **Adding Homeworks**
-- All data is taking from the `src/data/homeworkData.json` file. 
+- All data is taking from the `src/data/assignmentData.json` file. 
 - To add a homework to self-grade form, add it to the list of homeworks contained in this file
 
 **Homework JSON Attribute Description**
@@ -12,5 +12,12 @@ The website used by students to submit their self-grades for homework assignment
 - `pageName`: the name of the page for the self-grade for this homework (which will be part of the URL)
 - `questions`: a list of all the questions in the HW (excluding optional problems) with their point values included
 
+**Autograder Generation**
+To generate the autograder for an assignment.
+1. Add the self-grade data to `src/data/assignmentData.json`
+2. `cd autograder`
+3. `python create-autograder.py [Assignment Name]`
+A temporary self-grade autograder is in `autograder/`.
+
 After commiting to the repo, a github action will be run which will deploy the site.
-To deploy the github site manually, pull the repo, make your changes, and run `npm run deploy`
+To deploy the github site manually, pull the repo, make your changes, and run `npm run deploy`. Note: This pushes the raw computed website, which may not be what you want.
