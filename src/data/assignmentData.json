@@ -1,1 +1,34 @@
-[]
+[
+  {
+    "name": "Homework 1",
+    "gradescopeLink": "https://www.gradescope.com/courses/710587/assignments/3971243",
+    "solutionsLink": "",
+    "pageName": "homework-1",
+    "questions": [
+      {
+          "name": "1.1",
+          "points": 25
+      },
+      {
+          "name": "1.2",
+          "points": 10
+      },
+      {
+          "name": "1.3",
+          "points": 15
+      },
+      {
+          "name": "1.4",
+          "points": 20
+      },
+      {
+          "name": "1.5",
+          "points": 15
+      },
+      {
+          "name": "1.6",
+          "points": 15
+      }
+    ]   
+  }
+]
