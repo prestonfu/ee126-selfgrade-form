@@ -4,3 +4,4 @@ public
 src/gatsby-types.d.ts
 feedback
 autograder/*.zip
+autograder/autograder/assignment.json
