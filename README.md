@@ -16,7 +16,7 @@ The website used by students to submit their self-grades for homework assignment
 To generate the autograder for an assignment.
 1. Add the self-grade data to `src/data/assignmentData.json`
 2. `cd autograder`
-3. `python create-autograder.py [Assignment Name]`
+3. `python create-autograder.py [Assignment Name]` (e.g. `python create-autograder.py "Homework 1"`)
 A temporary self-grade autograder is in `autograder/`.
 
 After commiting to the repo, a github action will be run which will deploy the site.
