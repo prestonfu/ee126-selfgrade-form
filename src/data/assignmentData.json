@@ -30,5 +30,45 @@
           "points": 15
       }
     ]   
+  },
+  {
+    "name": "Homework 2",
+    "gradescopeLink": "https://www.gradescope.com/courses/710587/assignments/4060091",
+    "solutionsLink": "https://bcourses.berkeley.edu/courses/1532904/files/folder/Homework/Homework%202?preview=88101109",
+    "pageName": "homework-2",
+    "questions": [
+      {
+          "name": "2.1",
+          "points": 15
+      },
+      {
+          "name": "2.2 (a)-(b)",
+          "points": 12.5
+      },
+      {
+          "name": "2.2 (c)-(d)",
+          "points": 12.5
+      },
+      {
+          "name": "2.3",
+          "points": 20
+      },
+      {
+          "name": "2.4 (a)-(b)",
+          "points": 10
+      },
+      {
+          "name": "2.4 (c)-(d)",
+          "points": 10
+      },
+      {
+        "name": "2.5 (a)-(b)",
+        "points": 10
+      },
+      {
+          "name": "2.5 (c)-(d)",
+          "points": 10
+      }
+    ]   
   }
 ]

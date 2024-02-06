@@ -7,7 +7,7 @@ The website used by students to submit their self-grades for homework assignment
 
 **Homework JSON Attribute Description**
 - `name`: the name of the assignment
-- `gradescopeLink`: the link to the gradescope assignment for the homework
+- `gradescopeLink`: the link to the gradescope assignment for the homework self-grades
 - `solutionsLink`: the link to the solutions for the homework
 - `pageName`: the name of the page for the self-grade for this homework (which will be part of the URL)
 - `questions`: a list of all the questions in the HW (excluding optional problems) with their point values included
