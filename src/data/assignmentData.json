@@ -70,5 +70,53 @@
           "points": 10
       }
     ]   
+  },
+    {
+    "name": "Homework 3",
+    "gradescopeLink": "https://www.gradescope.com/courses/710587/assignments/4106192",
+    "solutionsLink": "https://bcourses.berkeley.edu/courses/1532904/files/folder/Homework/Homework%203?preview=88189175",
+    "pageName": "homework-3",
+    "questions": [
+      {
+          "name": "3.1",
+          "points": 10
+      },
+      {
+          "name": "3.2",
+          "points": 10
+      },
+      {
+          "name": "3.3",
+          "points": 8
+      },
+      {
+          "name": "3.4",
+          "points": 12
+      },
+      {
+          "name": "3.5 (a)-(b)",
+          "points": 12
+      },
+      {
+        "name": "3.5 (c)-(d)",
+        "points": 8
+      },
+      {
+          "name": "3.6 (a)",
+          "points": 4
+      },
+      {
+          "name": "3.6 (b)",
+          "points": 8
+      },
+      {
+          "name": "3.7 (a)-(b)-(c)",
+          "points": 24
+      },
+      {
+          "name": "3.7 (d)",
+          "points": 4
+      }
+    ]   
   }
 ]
