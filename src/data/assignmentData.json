@@ -150,5 +150,53 @@
 	  "points": 25
       }
     ]
+  },
+  {
+    "name": "Homework 5",
+    "gradescopeLink": "https://www.gradescope.com/courses/710587/assignments/4120041",
+    "solutionsLink": "https://bcourses.berkeley.edu/courses/1532904/files/folder/Homework/Homework%205?preview=88227792",
+    "pageName": "homework-5",
+    "questions": [
+      {
+          "name": "5.1 (a)-(b)-(c)",
+          "points": 30
+      },
+      {
+          "name": "5.1 (d) (optional)",
+          "points": 0
+      },
+      {
+          "name": "5.2 (a)-(b)",
+          "points": 20
+     },
+      {
+          "name": "5.2 (c)",
+          "points": 10
+      },
+      {
+          "name": "5.3 (a) - (b)",
+          "points": 15
+      },
+      {
+          "name": "5.3 (c) - (d)",
+          "points": 20
+      },
+      {
+	      "name": "5.4 (a)",
+	      "points": 10
+      },
+      {
+          "name": "5.4 (b) - (c) (optional)",
+          "points": 0
+      },
+      {
+	        "name": "5.4 (d)",
+	        "points": 15
+      },
+      {
+            "name": "5.4 (e)",
+            "points": 15
+      }  
+    ]
   }
 ]
