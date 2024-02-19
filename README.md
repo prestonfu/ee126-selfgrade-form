@@ -2,7 +2,7 @@
 The website used by students to submit their self-grades for homework assignments.
 
 **Adding Homeworks**
-- All data is taking from the `src/data/assignmentData.json` file. 
+- All data is taken from the `src/data/assignmentData.json` file. 
 - To add a homework to self-grade form, add it to the list of homeworks contained in this file
 
 **Homework JSON Attribute Description**
