@@ -153,37 +153,37 @@
   },
   {
     "name": "Homework 5",
-    "gradescopeLink": "https://www.gradescope.com/courses/710587/assignments/4120041",
+    "gradescopeLink": "https://www.gradescope.com/courses/710587/assignments/4127694",
     "solutionsLink": "https://bcourses.berkeley.edu/courses/1532904/files/folder/Homework/Homework%205?preview=88227792",
     "pageName": "homework-5",
     "questions": [
       {
-          "name": "5.1 (a)-(b)-(c)",
-          "points": 30
+          "name": "5.1 (a)-(c)",
+          "points": 20
       },
       {
           "name": "5.1 (d) (optional)",
           "points": 0
       },
       {
-          "name": "5.2 (a)-(b)",
-          "points": 20
-     },
-      {
-          "name": "5.2 (c)",
-          "points": 10
+          "name": "5.1 (e)",
+          "points": 5
       },
       {
-          "name": "5.3 (a) - (b)",
+          "name": "5.2",
+          "points": 25
+      },
+      {
+          "name": "5.3 (a) - (c)",
           "points": 15
       },
       {
-          "name": "5.3 (c) - (d)",
-          "points": 20
+          "name": "5.3 (d)",
+          "points": 10
       },
       {
-	      "name": "5.4 (a)",
-	      "points": 10
+          "name": "5.4 (a)",
+          "points": 5
       },
       {
           "name": "5.4 (b) - (c) (optional)",
@@ -191,11 +191,11 @@
       },
       {
 	        "name": "5.4 (d)",
-	        "points": 15
+	        "points": 5
       },
       {
-            "name": "5.4 (e)",
-            "points": 15
+          "name": "5.4 (e)",
+          "points": 15
       }  
     ]
   },
@@ -206,8 +206,8 @@
     "pageName": "lab-1",
     "questions": [
       {
-        "name": "1(c): It's just a phase",
-        "points": 10
+          "name": "1(c): It's just a phase",
+          "points": 10
       },
       {
           "name": "2: Get Rect",
