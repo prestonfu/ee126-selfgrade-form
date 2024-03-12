@@ -214,5 +214,33 @@
           "points": 30
       }
     ]   
+  },
+  {
+    "name": "Lab 2",
+    "gradescopeLink": "https://www.gradescope.com/courses/710587/assignments/4222083",
+    "solutionsLink": "https://bcourses.berkeley.edu/courses/1532904/files/folder/Labs/Lab%202?preview=88431532",
+    "pageName": "lab-2",
+    "questions": [
+      {
+        "name": "1(b): DFT of song Clip",
+        "points": 12
+      },
+      {
+          "name": "2(b): Benchmarking the Matrix-Vector DFT",
+          "points": 6
+      },
+      {
+          "name": "3(b): Benchmarking our Homemade FFT",
+          "points": 12
+      },
+      {
+          "name": "4(b): Cross-Correlation - Conceptual",
+          "points": 6
+      },
+      {
+          "name": "4(d): Realignment",
+          "points": 6
+      }
+    ]
   }
 ]
