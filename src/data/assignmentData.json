@@ -1,246 +1,273 @@
-[
-  {
-    "name": "Homework 1",
-    "gradescopeLink": "https://www.gradescope.com/courses/710587/assignments/3971243",
-    "solutionsLink": "https://bcourses.berkeley.edu/courses/1532904/files/folder/Homework/Homework%201?preview=88015132",
-    "pageName": "homework-1",
-    "questions": [
-      {
-          "name": "1.1",
-          "points": 25
-      },
-      {
-          "name": "1.2",
-          "points": 10
-      },
-      {
-          "name": "1.3",
-          "points": 15
-      },
-      {
-          "name": "1.4",
-          "points": 20
-      },
-      {
-          "name": "1.5",
-          "points": 15
-      },
-      {
-          "name": "1.6",
-          "points": 15
-      }
-    ]   
-  },
-  {
-    "name": "Homework 2",
-    "gradescopeLink": "https://www.gradescope.com/courses/710587/assignments/4060091",
-    "solutionsLink": "https://bcourses.berkeley.edu/courses/1532904/files/folder/Homework/Homework%202?preview=88110466",
-    "pageName": "homework-2",
-    "questions": [
-      {
-          "name": "2.1",
-          "points": 15
-      },
-      {
-          "name": "2.2 (a)-(b)",
-          "points": 12.5
-      },
-      {
-          "name": "2.2 (c)-(d)",
-          "points": 12.5
-      },
-      {
-          "name": "2.3",
-          "points": 20
-      },
-      {
-          "name": "2.4 (a)-(b)",
-          "points": 10
-      },
-      {
-          "name": "2.4 (c)-(d)",
-          "points": 10
-      },
-      {
-        "name": "2.5 (a)-(b)",
-        "points": 10
-      },
-      {
-          "name": "2.5 (c)-(d)",
-          "points": 10
-      }
-    ]   
-  },
+[{
+        "name": "Homework 1",
+        "gradescopeLink": "https://www.gradescope.com/courses/710587/assignments/3971243",
+        "solutionsLink": "https://bcourses.berkeley.edu/courses/1532904/files/folder/Homework/Homework%201?preview=88015132",
+        "pageName": "homework-1",
+        "questions": [{
+                "name": "1.1",
+                "points": 25
+            },
+            {
+                "name": "1.2",
+                "points": 10
+            },
+            {
+                "name": "1.3",
+                "points": 15
+            },
+            {
+                "name": "1.4",
+                "points": 20
+            },
+            {
+                "name": "1.5",
+                "points": 15
+            },
+            {
+                "name": "1.6",
+                "points": 15
+            }
+        ]
+    },
     {
-    "name": "Homework 3",
-    "gradescopeLink": "https://www.gradescope.com/courses/710587/assignments/4106192",
-    "solutionsLink": "https://bcourses.berkeley.edu/courses/1532904/files/folder/Homework/Homework%203?preview=88189175",
-    "pageName": "homework-3",
-    "questions": [
-      {
-          "name": "3.1",
-          "points": 10
-      },
-      {
-          "name": "3.2",
-          "points": 10
-      },
-      {
-          "name": "3.3",
-          "points": 8
-      },
-      {
-          "name": "3.4",
-          "points": 12
-      },
-      {
-          "name": "3.5 (a)-(b)",
-          "points": 12
-      },
-      {
-        "name": "3.5 (c)-(d)",
-        "points": 8
-      },
-      {
-          "name": "3.6 (a)",
-          "points": 4
-      },
-      {
-          "name": "3.6 (b)",
-          "points": 8
-      },
-      {
-          "name": "3.7 (a)-(b)-(c)",
-          "points": 24
-      },
-      {
-          "name": "3.7 (d)",
-          "points": 4
-      }
-    ]   
-  },
-  {
-    "name": "Homework 4",
-    "gradescopeLink": "https://www.gradescope.com/courses/710587/assignments/4127683",
-    "solutionsLink": "https://bcourses.berkeley.edu/courses/1532904/files/folder/Homework/Homework%204?preview=88227832",
-    "pageName": "homework-4",
-    "questions": [
-      {
-          "name": "1.1 (a)-(b)-(c)",
-          "points": 15
-      },
-      {
-          "name": "1.2 (a)",
-          "points": 10
-      },
-      {
-          "name": "1.2 (b)",
-          "points": 10
-      },
-      {
-          "name": "1.2 (c)",
-          "points": 10
-      },
-      {
-	  "name": "1.3 (a)-(b)",
-	  "points": 30
-      },
-      {
-	  "name": "1.4 (a)-(b)-(c)",
-	  "points": 25
-      }
-    ]
-  },
-  {
-    "name": "Homework 5",
-    "gradescopeLink": "https://www.gradescope.com/courses/710587/assignments/4127694",
-    "solutionsLink": "https://bcourses.berkeley.edu/courses/1532904/files/folder/Homework/Homework%205?preview=88227792",
-    "pageName": "homework-5",
-    "questions": [
-      {
-          "name": "5.1 (a)-(c)",
-          "points": 20
-      },
-      {
-          "name": "5.1 (d) (optional)",
-          "points": 0
-      },
-      {
-          "name": "5.1 (e)",
-          "points": 5
-      },
-      {
-          "name": "5.2",
-          "points": 25
-      },
-      {
-          "name": "5.3 (a) - (c)",
-          "points": 15
-      },
-      {
-          "name": "5.3 (d)",
-          "points": 10
-      },
-      {
-          "name": "5.4 (a)",
-          "points": 5
-      },
-      {
-          "name": "5.4 (b) - (c) (optional)",
-          "points": 0
-      },
-      {
-	        "name": "5.4 (d)",
-	        "points": 5
-      },
-      {
-          "name": "5.4 (e)",
-          "points": 15
-      }  
-    ]
-  },
-  {
-    "name": "Lab 1",
-    "gradescopeLink": "https://www.gradescope.com/courses/710587/assignments/4129396",
-    "solutionsLink": "https://bcourses.berkeley.edu/courses/1532904/files/folder/Labs/Lab%201?preview=88233771",
-    "pageName": "lab-1",
-    "questions": [
-      {
-          "name": "1(c): It's just a phase",
-          "points": 10
-      },
-      {
-          "name": "2: Get Rect",
-          "points": 30
-      }
-    ]   
-  },
-  {
-    "name": "Lab 2",
-    "gradescopeLink": "https://www.gradescope.com/courses/710587/assignments/4222083",
-    "solutionsLink": "https://bcourses.berkeley.edu/courses/1532904/files/folder/Labs/Lab%202?preview=88431532",
-    "pageName": "lab-2",
-    "questions": [
-      {
-        "name": "1(b): DFT of song Clip",
-        "points": 12
-      },
-      {
-          "name": "2(b): Benchmarking the Matrix-Vector DFT",
-          "points": 6
-      },
-      {
-          "name": "3(b): Benchmarking our Homemade FFT",
-          "points": 12
-      },
-      {
-          "name": "4(b): Cross-Correlation - Conceptual",
-          "points": 6
-      },
-      {
-          "name": "4(d): Realignment",
-          "points": 6
-      }
-    ]
-  }
+        "name": "Homework 2",
+        "gradescopeLink": "https://www.gradescope.com/courses/710587/assignments/4060091",
+        "solutionsLink": "https://bcourses.berkeley.edu/courses/1532904/files/folder/Homework/Homework%202?preview=88110466",
+        "pageName": "homework-2",
+        "questions": [{
+                "name": "2.1",
+                "points": 15
+            },
+            {
+                "name": "2.2 (a)-(b)",
+                "points": 12.5
+            },
+            {
+                "name": "2.2 (c)-(d)",
+                "points": 12.5
+            },
+            {
+                "name": "2.3",
+                "points": 20
+            },
+            {
+                "name": "2.4 (a)-(b)",
+                "points": 10
+            },
+            {
+                "name": "2.4 (c)-(d)",
+                "points": 10
+            },
+            {
+                "name": "2.5 (a)-(b)",
+                "points": 10
+            },
+            {
+                "name": "2.5 (c)-(d)",
+                "points": 10
+            }
+        ]
+    },
+    {
+        "name": "Homework 3",
+        "gradescopeLink": "https://www.gradescope.com/courses/710587/assignments/4106192",
+        "solutionsLink": "https://bcourses.berkeley.edu/courses/1532904/files/folder/Homework/Homework%203?preview=88189175",
+        "pageName": "homework-3",
+        "questions": [{
+                "name": "3.1",
+                "points": 10
+            },
+            {
+                "name": "3.2",
+                "points": 10
+            },
+            {
+                "name": "3.3",
+                "points": 8
+            },
+            {
+                "name": "3.4",
+                "points": 12
+            },
+            {
+                "name": "3.5 (a)-(b)",
+                "points": 12
+            },
+            {
+                "name": "3.5 (c)-(d)",
+                "points": 8
+            },
+            {
+                "name": "3.6 (a)",
+                "points": 4
+            },
+            {
+                "name": "3.6 (b)",
+                "points": 8
+            },
+            {
+                "name": "3.7 (a)-(b)-(c)",
+                "points": 24
+            },
+            {
+                "name": "3.7 (d)",
+                "points": 4
+            }
+        ]
+    },
+    {
+        "name": "Homework 4",
+        "gradescopeLink": "https://www.gradescope.com/courses/710587/assignments/4127683",
+        "solutionsLink": "https://bcourses.berkeley.edu/courses/1532904/files/folder/Homework/Homework%204?preview=88227832",
+        "pageName": "homework-4",
+        "questions": [{
+                "name": "1.1 (a)-(b)-(c)",
+                "points": 15
+            },
+            {
+                "name": "1.2 (a)",
+                "points": 10
+            },
+            {
+                "name": "1.2 (b)",
+                "points": 10
+            },
+            {
+                "name": "1.2 (c)",
+                "points": 10
+            },
+            {
+                "name": "1.3 (a)-(b)",
+                "points": 30
+            },
+            {
+                "name": "1.4 (a)-(b)-(c)",
+                "points": 25
+            }
+        ]
+    },
+    {
+        "name": "Homework 5",
+        "gradescopeLink": "https://www.gradescope.com/courses/710587/assignments/4127694",
+        "solutionsLink": "https://bcourses.berkeley.edu/courses/1532904/files/folder/Homework/Homework%205?preview=88227792",
+        "pageName": "homework-5",
+        "questions": [{
+                "name": "5.1 (a)-(c)",
+                "points": 20
+            },
+            {
+                "name": "5.1 (d) (optional)",
+                "points": 0
+            },
+            {
+                "name": "5.1 (e)",
+                "points": 5
+            },
+            {
+                "name": "5.2",
+                "points": 25
+            },
+            {
+                "name": "5.3 (a) - (c)",
+                "points": 15
+            },
+            {
+                "name": "5.3 (d)",
+                "points": 10
+            },
+            {
+                "name": "5.4 (a)",
+                "points": 5
+            },
+            {
+                "name": "5.4 (b) - (c) (optional)",
+                "points": 0
+            },
+            {
+                "name": "5.4 (d)",
+                "points": 5
+            },
+            {
+                "name": "5.4 (e)",
+                "points": 15
+            }
+        ]
+    },
+    {
+        "name": "Homework 6",
+        "gradescopeLink": "https://www.gradescope.com/courses/710587/assignments/4208316",
+        "solutionsLink": "https://bcourses.berkeley.edu/courses/1532904/files/folder/Homework/Homework%206?preview=88438077",
+        "pageName": "homework-6",
+        "questions": [{
+                "name": "6.1",
+                "points": 20
+            },
+            {
+                "name": "6.2",
+                "points": 20
+            },
+            {
+                "name": "6.3",
+                "points": 20
+            },
+            {
+                "name": "6.4 (a) - (b)",
+                "points": 10
+            },
+            {
+                "name": "6.4 (c) - (e)",
+                "points": 10
+            },
+            {
+                "name": "6.5 (a)",
+                "points": 10
+            },
+            {
+                "name": "6.5 (b) - (e)",
+                "points": 10
+            }
+        ]
+    },
+    {
+        "name": "Lab 1",
+        "gradescopeLink": "https://www.gradescope.com/courses/710587/assignments/4129396",
+        "solutionsLink": "https://bcourses.berkeley.edu/courses/1532904/files/folder/Labs/Lab%201?preview=88233771",
+        "pageName": "lab-1",
+        "questions": [{
+                "name": "1(c): It's just a phase",
+                "points": 10
+            },
+            {
+                "name": "2: Get Rect",
+                "points": 30
+            }
+        ]
+    },
+    {
+        "name": "Lab 2",
+        "gradescopeLink": "https://www.gradescope.com/courses/710587/assignments/4222083",
+        "solutionsLink": "https://bcourses.berkeley.edu/courses/1532904/files/folder/Labs/Lab%202?preview=88431532",
+        "pageName": "lab-2",
+        "questions": [{
+                "name": "1(b): DFT of song Clip",
+                "points": 12
+            },
+            {
+                "name": "2(b): Benchmarking the Matrix-Vector DFT",
+                "points": 6
+            },
+            {
+                "name": "3(b): Benchmarking our Homemade FFT",
+                "points": 12
+            },
+            {
+                "name": "4(b): Cross-Correlation - Conceptual",
+                "points": 6
+            },
+            {
+                "name": "4(d): Realignment",
+                "points": 6
+            }
+        ]
+    }
 ]
