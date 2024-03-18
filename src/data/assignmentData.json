@@ -229,6 +229,29 @@
         ]
     },
     {
+        "name": "Homework 8",
+        "gradescopeLink": "https://www.gradescope.com/courses/710587/assignments/4234562",
+        "solutionsLink": "https://bcourses.berkeley.edu/courses/1532904/files/folder/Homework/Homework%208?preview=88481732",
+        "pageName": "homework-8",
+        "questions": [{
+                "name": "8.1",
+                "points": 25
+            },
+            {
+                "name": "8.2",
+                "points": 25
+            },
+            {
+                "name": "8.3",
+                "points": 25
+            },
+            {
+                "name": "8.4",
+                "points": 25
+            }
+        ]
+    },
+    {
         "name": "Lab 1",
         "gradescopeLink": "https://www.gradescope.com/courses/710587/assignments/4129396",
         "solutionsLink": "https://bcourses.berkeley.edu/courses/1532904/files/folder/Labs/Lab%201?preview=88233771",
