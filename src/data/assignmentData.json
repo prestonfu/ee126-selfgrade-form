@@ -229,6 +229,62 @@
         ]
     },
     {
+        "name": "Homework 7",
+        "gradescopeLink": "https://www.gradescope.com/courses/710587/assignments/4247049",
+        "solutionsLink": "https://bcourses.berkeley.edu/courses/1532904/files/folder/Homework/Homework%207?preview=88494380",
+        "pageName": "homework-7",
+        "questions": [
+            {
+                "name": "7.1 (a)",
+                "points": 15
+            },
+            {
+                "name": "7.1 (b)",
+                "points": 5
+            },
+            {
+                "name": "7.2 (a)",
+                "points": 7.5
+            },
+            {
+                "name": "7.2 (b)",
+                "points": 7.5
+            },
+            {
+                "name": "7.3 (a)",
+                "points": 5
+            },
+            {
+                "name": "7.3 (b)",
+                "points": 5
+            },
+            {
+                "name": "7.3 (c)",
+                "points": 5
+            },
+            {
+                "name": "7.4 (a)",
+                "points": 10
+            },
+            {
+                "name": "7.4 (b)",
+                "points": 10
+            },
+            {
+                "name": "7.5 (a)",
+                "points": 5
+            },
+            {
+                "name": "7.5 (b)",
+                "points": 15
+            },
+            {
+                "name": "7.5 (c)",
+                "points": 10
+            }
+        ]
+    },
+    {
         "name": "Homework 8",
         "gradescopeLink": "https://www.gradescope.com/courses/710587/assignments/4234562",
         "solutionsLink": "https://bcourses.berkeley.edu/courses/1532904/files/folder/Homework/Homework%208?preview=88481732",
