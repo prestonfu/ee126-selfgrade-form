@@ -264,11 +264,19 @@
             },
             {
                 "name": "7.4 (a)",
-                "points": 10
+                "points": 5
             },
             {
                 "name": "7.4 (b)",
-                "points": 10
+                "points": 5
+            },
+	    {
+                "name": "7.4 (c)",
+                "points": 5
+            },
+	    {
+                "name": "7.4 (d)",
+                "points": 5
             },
             {
                 "name": "7.5 (a)",
