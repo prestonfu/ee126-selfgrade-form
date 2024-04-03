@@ -356,5 +356,21 @@
                 "points": 6
             }
         ]
+    },
+    {
+        "name": "Lab 3",
+        "gradescopeLink": "https://www.gradescope.com/courses/710587/assignments/4311630",
+        "solutionsLink": "https://bcourses.berkeley.edu/courses/1532904/files/folder/Labs/Lab%203?preview=88578396",
+        "pageName": "lab-3",
+        "questions": [
+            {
+                "name": "1(c): Analysis",
+                "points": 8
+            },
+            {
+                "name": "2(b): Analysis",
+                "points": 10
+            }
+        ]
     }
 ]
