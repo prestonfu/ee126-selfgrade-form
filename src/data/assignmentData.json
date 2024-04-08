@@ -316,6 +316,42 @@
         ]
     },
     {
+        "name": "Homework 9",
+        "gradescopeLink": "https://www.gradescope.com/courses/710587/assignments/4311270",
+        "solutionsLink": "https://bcourses.berkeley.edu/courses/1532904/files/folder/Homework/Homework%209?preview=88621052",
+        "pageName": "homework-9",
+        "questions": [
+            {
+                "name": "9.1 (a)-(b)",
+                "points": 15
+            },
+            {
+                "name": "9.2 (a)-(c)",
+                "points": 10
+            },
+            {
+                "name": "9.2 (d)",
+                "points": 10
+            },
+            {
+                "name": "9.2 (e)-(f)",
+                "points": 15
+            },
+            {
+                "name": "9.3",
+                "points": 20
+            },
+            {
+                "name": "9.4 (a)",
+                "points": 15
+            },
+            {
+                "name": "9.4 (b)",
+                "points": 15
+            }
+        ]
+    },
+    {
         "name": "Lab 1",
         "gradescopeLink": "https://www.gradescope.com/courses/710587/assignments/4129396",
         "solutionsLink": "https://bcourses.berkeley.edu/courses/1532904/files/folder/Labs/Lab%201?preview=88233771",
