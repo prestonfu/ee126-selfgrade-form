@@ -408,5 +408,41 @@
                 "points": 10
             }
         ]
+    },
+    {
+        "name": "Lab 4",
+        "gradescopeLink": "https://www.gradescope.com/courses/710587/assignments/4375511",
+        "solutionsLink": "https://bcourses.berkeley.edu/courses/1532904/files/folder/Labs/Lab%204?preview=88713555",
+        "pageName": "lab-4",
+        "questions": [
+            {
+                "name": "1(d): Noisy Deconvolution (Part 1)",
+                "points": 5
+            },
+            {
+                "name": "1(d): Noisy Deconvolution (Part 2)",
+                "points": 5
+            },
+            {
+                "name": "2(b): 2D Convolution? 1D Was Hard Enough Already! (Code)",
+                "points": 5
+            },
+            {
+                "name": "2(b): 2D Convolution? 1D Was Hard Enough Already! (Conceptual)",
+                "points": 5
+            },
+            {
+                "name": "2(c): Image Sharpening",
+                "points": 10
+            },
+            {
+                "name": "2(d): 2D DFT",
+                "points": 10
+            },
+            {
+                "name": "3(b): Playing NASA Engineer",
+                "points": 10
+            }
+        ]
     }
 ]
