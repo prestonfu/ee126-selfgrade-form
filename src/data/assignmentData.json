@@ -352,6 +352,61 @@
         ]
     },
     {
+        "name": "Homework 10",
+        "gradescopeLink": "https://www.gradescope.com/courses/710587/assignments/4375977",
+        "solutionsLink": "https://bcourses.berkeley.edu/courses/1532904/files/folder/Homework/Homework%2010?preview=88714702",
+        "pageName": "homework-10",
+        "questions": [{
+                "name": "10.1 (a) (i)",
+                "points": 5
+            },
+	    {
+                "name": "10.1 (a) (ii)",
+                "points": 5
+            },
+	    {
+                "name": "10.1 (a) (iii)",
+                "points": 5
+            },
+	    {
+                "name": "10.1 (b) (i)",
+                "points": 5
+            },
+	    {
+                "name": "10.1 (b) (ii)",
+                "points": 5
+            },
+	    {
+                "name": "10.1 (b) (iii)",
+                "points": 5
+            },
+            {
+                "name": "10.2",
+                "points": 10
+            },
+            {
+                "name": "10.3 (a)",
+                "points": 5
+            },
+            {
+                "name": "10.3 (b)",
+                "points": 15
+            },
+            {
+                "name": "10.4 (a) - (c)",
+                "points": 20
+            },
+            {
+                "name": "10.5 (a) - (b)",
+                "points": 5
+            },
+            {
+                "name": "10.5 (c) - (d)",
+                "points": 15
+            }
+        ]
+    },
+    {
         "name": "Lab 1",
         "gradescopeLink": "https://www.gradescope.com/courses/710587/assignments/4129396",
         "solutionsLink": "https://bcourses.berkeley.edu/courses/1532904/files/folder/Labs/Lab%201?preview=88233771",
