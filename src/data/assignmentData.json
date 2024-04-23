@@ -356,7 +356,8 @@
         "gradescopeLink": "https://www.gradescope.com/courses/710587/assignments/4375977",
         "solutionsLink": "https://bcourses.berkeley.edu/courses/1532904/files/folder/Homework/Homework%2010?preview=88714702",
         "pageName": "homework-10",
-        "questions": [{
+        "questions": [
+            {
                 "name": "10.1 (a) (i)",
                 "points": 5
             },
@@ -403,6 +404,50 @@
             {
                 "name": "10.5 (c) - (d)",
                 "points": 15
+            }
+        ]
+    },
+    {
+        "name": "Homework 11",
+        "gradescopeLink": "https://www.gradescope.com/courses/710587/assignments/4398153",
+        "solutionsLink": "https://bcourses.berkeley.edu/courses/1532904/files/folder/Homework/Homework%2011?preview=88763774",
+        "pageName": "homework-11",
+        "questions": [
+            {
+                "name": "11.1",
+                "points": 10
+            },
+            {
+                "name": "10.2",
+                "points": 15
+            },
+            {
+                "name": "11.3",
+                "points": 20
+            },
+            {
+                "name": "11.4",
+                "points": 10
+            },
+            {
+                "name": "11.5 (a)",
+                "points": 10
+            },
+            {
+                "name": "11.5 (b) - (c)",
+                "points": 10
+            },
+            {
+                "name": "11.5 (d)",
+                "points": 10
+            },
+            {
+                "name": "11.6 (a) - (b)",
+                "points": 5
+            },
+            {
+                "name": "11.6 (c) - (d)",
+                "points": 10
             }
         ]
     },
