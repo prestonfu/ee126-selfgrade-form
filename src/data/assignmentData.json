@@ -233,8 +233,7 @@
         "gradescopeLink": "https://www.gradescope.com/courses/710587/assignments/4247049",
         "solutionsLink": "https://bcourses.berkeley.edu/courses/1532904/files/folder/Homework/Homework%207?preview=88494380",
         "pageName": "homework-7",
-        "questions": [
-            {
+        "questions": [{
                 "name": "7.1 (a)",
                 "points": 15
             },
@@ -270,11 +269,11 @@
                 "name": "7.4 (b)",
                 "points": 5
             },
-	    {
+            {
                 "name": "7.4 (c)",
                 "points": 5
             },
-	    {
+            {
                 "name": "7.4 (d)",
                 "points": 5
             },
@@ -320,8 +319,7 @@
         "gradescopeLink": "https://www.gradescope.com/courses/710587/assignments/4311270",
         "solutionsLink": "https://bcourses.berkeley.edu/courses/1532904/files/folder/Homework/Homework%209?preview=88621052",
         "pageName": "homework-9",
-        "questions": [
-            {
+        "questions": [{
                 "name": "9.1 (a)-(b)",
                 "points": 15
             },
@@ -356,28 +354,27 @@
         "gradescopeLink": "https://www.gradescope.com/courses/710587/assignments/4375977",
         "solutionsLink": "https://bcourses.berkeley.edu/courses/1532904/files/folder/Homework/Homework%2010?preview=88714702",
         "pageName": "homework-10",
-        "questions": [
-            {
+        "questions": [{
                 "name": "10.1 (a) (i)",
                 "points": 5
             },
-	          {
+            {
                 "name": "10.1 (a) (ii)",
                 "points": 5
             },
-	          {
+            {
                 "name": "10.1 (a) (iii)",
                 "points": 5
             },
-	          {
+            {
                 "name": "10.1 (b) (i)",
                 "points": 5
             },
-	          {
+            {
                 "name": "10.1 (b) (ii)",
                 "points": 5
             },
-	          {
+            {
                 "name": "10.1 (b) (iii)",
                 "points": 5
             },
@@ -412,8 +409,7 @@
         "gradescopeLink": "https://www.gradescope.com/courses/710587/assignments/4398153",
         "solutionsLink": "https://bcourses.berkeley.edu/courses/1532904/files/folder/Homework/Homework%2011?preview=88763774",
         "pageName": "homework-11",
-        "questions": [
-            {
+        "questions": [{
                 "name": "11.1",
                 "points": 10
             },
@@ -456,20 +452,19 @@
         "gradescopeLink": "https://www.gradescope.com/courses/710587/assignments/4386882",
         "solutionsLink": "https://bcourses.berkeley.edu/courses/1532904/files/folder/Homework/Homework%2012?preview=88757846",
         "pageName": "homework-12",
-        "questions": [
-            {
+        "questions": [{
                 "name": "12.1 (a)",
                 "points": 15
             },
-	          {
+            {
                 "name": "12.1 (b)",
                 "points": 10
             },
-	          {
+            {
                 "name": "12.1 (c)",
                 "points": 10
             },
-	          {
+            {
                 "name": "12.1 (d)",
                 "points": 20
             },
@@ -477,15 +472,15 @@
                 "name": "12.2 (a)",
                 "points": 15
             },
-	          {
+            {
                 "name": "12.2 (b)",
                 "points": 5
             },
-	          {
+            {
                 "name": "12.2 (c)",
                 "points": 5
             },
-	          {
+            {
                 "name": "12.2 (d)",
                 "points": 20
             }
@@ -538,8 +533,7 @@
         "gradescopeLink": "https://www.gradescope.com/courses/710587/assignments/4311630",
         "solutionsLink": "https://bcourses.berkeley.edu/courses/1532904/files/folder/Labs/Lab%203?preview=88578396",
         "pageName": "lab-3",
-        "questions": [
-            {
+        "questions": [{
                 "name": "1(c): Analysis",
                 "points": 8
             },
@@ -554,8 +548,7 @@
         "gradescopeLink": "https://www.gradescope.com/courses/710587/assignments/4375511",
         "solutionsLink": "https://bcourses.berkeley.edu/courses/1532904/files/folder/Labs/Lab%204?preview=88713555",
         "pageName": "lab-4",
-        "questions": [
-            {
+        "questions": [{
                 "name": "1(d): Noisy Deconvolution (Part 1)",
                 "points": 5
             },
@@ -590,8 +583,7 @@
         "gradescopeLink": "https://www.gradescope.com/courses/710587/assignments/4430354",
         "solutionsLink": "https://bcourses.berkeley.edu/courses/1532904/files/folder/Labs/Lab%205/Shazam",
         "pageName": "lab-5-shazam",
-        "questions": [
-            {
+        "questions": [{
                 "name": "1(c): Spectrograms of Songs",
                 "points": 5
             },
@@ -601,6 +593,21 @@
             },
             {
                 "name": "3(c): Blocked Speaker",
+                "points": 5
+            }
+        ]
+    },
+    {
+        "name": "Lab 5: MP3",
+        "gradescopeLink": "https://www.gradescope.com/courses/710587/assignments/4430732",
+        "solutionsLink": "https://bcourses.berkeley.edu/courses/1532904/files/folder/Labs/Lab%205/MP3",
+        "pageName": "lab-5-MP3",
+        "questions": [{
+                "name": "1(e): Quantization",
+                "points": 5
+            },
+            {
+                "name": "2b: Putting it All Together",
                 "points": 5
             }
         ]
