@@ -611,5 +611,37 @@
                 "points": 5
             }
         ]
+    },
+    {
+      "name": "Lab 5: Controls",
+      "gradescopeLink": "https://www.gradescope.com/courses/710587/assignments/4435466",
+      "solutionsLink": "https://bcourses.berkeley.edu/courses/1532904/files/folder/Labs/Lab%205/Controls?preview=88841981",
+      "pageName": "lab-5-controls",
+      "questions": [
+        {
+            "name": "1(c): Open Loop Analysis",
+            "points": 10
+        },
+        {
+            "name": "2(a): Dampening Analysis",
+            "points": 10
+        },
+        {
+            "name": "2(a): Critically Dampened Plots",
+            "points": 5
+        },
+        {
+            "name": "2(b): Gaussian Noise",
+            "points": 5
+        },
+        {
+            "name": "2(b): Lowpass Behavior",
+            "points": 15
+        },
+        {
+            "name": "3: Deadband Stability",
+            "points": 10
+        }
+      ]
     }
 ]
