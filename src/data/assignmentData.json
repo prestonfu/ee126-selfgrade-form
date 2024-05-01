@@ -696,5 +696,49 @@
             "points": 10
         }
       ]
-    }
+    },
+    {
+        "name": "Lab 5: Wavelet",
+        "gradescopeLink": "https://www.gradescope.com/courses/710587/assignments/4435841",
+        "solutionsLink": "https://bcourses.berkeley.edu/courses/1532904/files/folder/Labs/Lab%205/Wavelet?preview=88842654",
+        "pageName": "lab-5-wavelet",
+        "questions": [
+          {
+              "name": "1(b)",
+              "points": 5
+          },
+          {
+              "name": "1(c)",
+              "points": 5
+          },
+          {
+              "name": "1(e)",
+              "points": 5
+          },
+          {
+              "name": "1(f)",
+              "points": 5
+          },
+          {
+              "name": "2(b)",
+              "points": 5
+          },
+          {
+              "name": "3(a) Part I",
+              "points": 5
+          },
+          {
+              "name": "3(a) Part II",
+              "points": 5
+          },
+          {
+              "name": "3(b) (conceptual)",
+              "points": 5
+          },
+          {
+              "name": "3(c)",
+              "points": 5
+          }
+        ]
+      }
 ]
