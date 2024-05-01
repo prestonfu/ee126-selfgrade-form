@@ -598,6 +598,50 @@
         ]
     },
     {
+        "name": "Lab 5: Wavelet",
+        "gradescopeLink": "https://www.gradescope.com/courses/710587/assignments/4435841",
+        "solutionsLink": "https://bcourses.berkeley.edu/courses/1532904/files/folder/Labs/Lab%205/Wavelet?preview=88844756",
+        "pageName": "lab-5-wavelet",
+        "questions": [
+            {
+                "name": "1(b)",
+                "points": 5
+            },
+            {
+                "name": "1(c)",
+                "points": 5
+            },
+            {
+                "name": "1(e)",
+                "points": 5
+            },
+            {
+                "name": "1(f)",
+                "points": 5
+            },
+            {
+                "name": "2(b)",
+                "points": 5
+            },
+            {
+                "name": "3(a) Part I",
+                "points": 5
+            },
+            {
+                "name": "3(a) Part II",
+                "points": 5
+            },
+            {
+                "name": "3(b) (conceptual)",
+                "points": 5
+            },
+            {
+                "name": "3(c)",
+                "points": 5
+            }
+        ]
+    },
+    {
         "name": "Lab 5: MP3",
         "gradescopeLink": "https://www.gradescope.com/courses/710587/assignments/4435656",
         "solutionsLink": "https://bcourses.berkeley.edu/courses/1532904/files/folder/Labs/Lab%205/MP3?preview=88842129",
@@ -622,32 +666,32 @@
       "gradescopeLink": "https://www.gradescope.com/courses/710587/assignments/4435466",
       "solutionsLink": "https://bcourses.berkeley.edu/courses/1532904/files/folder/Labs/Lab%205/Controls?preview=88841981",
       "pageName": "lab-5-controls",
-      "questions": [
-        {
-            "name": "1(c): Open Loop Analysis",
-            "points": 10
-        },
-        {
-            "name": "2(a): Dampening Analysis",
-            "points": 10
-        },
-        {
-            "name": "2(a): Critically Dampened Plots",
-            "points": 5
-        },
-        {
-            "name": "2(b): Gaussian Noise",
-            "points": 5
-        },
-        {
-            "name": "2(b): Lowpass Behavior",
-            "points": 15
-        },
-        {
-            "name": "3: Deadband Stability",
-            "points": 10
-        }
-      ]
+      "questions":[
+            {
+                "name": "1(c): Open Loop Analysis",
+                "points": 10
+            },
+            {
+                "name": "2(a): Dampening Analysis",
+                "points": 10
+            },
+            {
+                "name": "2(a): Critically Dampened Plots",
+                "points": 5
+            },
+            {
+                "name": "2(b): Gaussian Noise",
+                "points": 5
+            },
+            {
+                "name": "2(b): Lowpass Behavior",
+                "points": 15
+            },
+            {
+                "name": "3: Deadband Stability",
+                "points": 10
+            }
+        ]
     },
     {
       "name": "Lab 5: Audio Synthesizer",
@@ -655,90 +699,46 @@
       "solutionsLink": "https://bcourses.berkeley.edu/courses/1532904/files/folder/Labs/Lab%205/Audio%20Synthesizer?preview=88842433",
       "pageName": "lab-5-audio-synthesizer",
       "questions": [
-        {
-            "name": "Patch 1 Question 1",
-            "points": 10
-        },
-        {
-            "name": "Patch 1 Question 2",
-            "points": 10
-        },
-        {
-            "name": "Patch 1 Question 3",
-            "points": 10
-        },
-        {
-            "name": "Patch 2 Question 1",
-            "points": 10
-        },
-        {
-            "name": "Patch 2 Question 2",
-            "points": 15
-        },
-        {
-            "name": "Patch 2 Question 3",
-            "points": 10
-        },
-        {
-            "name": "Patch 3 Question 1",
-            "points": 10
-        },
-	{
-            "name": "Patch 3 Question 2",
-            "points": 10
-        },
-	{
-            "name": "Patch 4 Question 1",
-            "points": 10
-        },
-	{
-            "name": "Patch 4 Question 2",
-            "points": 10
-        }
-      ]
-    },
-    {
-        "name": "Lab 5: Wavelet",
-        "gradescopeLink": "https://www.gradescope.com/courses/710587/assignments/4435841",
-        "solutionsLink": "https://bcourses.berkeley.edu/courses/1532904/files/folder/Labs/Lab%205/Wavelet?preview=88842654",
-        "pageName": "lab-5-wavelet",
-        "questions": [
-          {
-              "name": "1(b)",
-              "points": 5
-          },
-          {
-              "name": "1(c)",
-              "points": 5
-          },
-          {
-              "name": "1(e)",
-              "points": 5
-          },
-          {
-              "name": "1(f)",
-              "points": 5
-          },
-          {
-              "name": "2(b)",
-              "points": 5
-          },
-          {
-              "name": "3(a) Part I",
-              "points": 5
-          },
-          {
-              "name": "3(a) Part II",
-              "points": 5
-          },
-          {
-              "name": "3(b) (conceptual)",
-              "points": 5
-          },
-          {
-              "name": "3(c)",
-              "points": 5
-          }
+            {
+                "name": "Patch 1 Question 1",
+                "points": 10
+            },
+            {
+                "name": "Patch 1 Question 2",
+                "points": 10
+            },
+            {
+                "name": "Patch 1 Question 3",
+                "points": 10
+            },
+            {
+                "name": "Patch 2 Question 1",
+                "points": 10
+            },
+            {
+                "name": "Patch 2 Question 2",
+                "points": 15
+            },
+            {
+                "name": "Patch 2 Question 3",
+                "points": 10
+            },
+            {
+                "name": "Patch 3 Question 1",
+                "points": 10
+            },
+            {
+                "name": "Patch 3 Question 2",
+                "points": 10
+            },
+            {
+                "name": "Patch 4 Question 1",
+                "points": 10
+            },
+            {
+                "name": "Patch 4 Question 2",
+                "points": 10
+            }
         ]
-      }
+    }
 ]
