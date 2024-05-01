@@ -648,5 +648,53 @@
             "points": 10
         }
       ]
+    },
+    {
+      "name": "Lab 5: Audio Synthesizer",
+      "gradescopeLink": "https://www.gradescope.com/courses/710587/assignments/4435678",
+      "solutionsLink": "https://bcourses.berkeley.edu/courses/1532904/files/folder/Labs/Lab%205/Audio%20Synthesizer?preview=88842433",
+      "pageName": "lab-5-audio-synthesizer",
+      "questions": [
+        {
+            "name": "Patch 1 Question 1",
+            "points": 10
+        },
+        {
+            "name": "Patch 1 Question 2",
+            "points": 10
+        },
+        {
+            "name": "Patch 1 Question 3",
+            "points": 10
+        },
+        {
+            "name": "Patch 2 Question 1",
+            "points": 10
+        },
+        {
+            "name": "Patch 2 Question 2",
+            "points": 15
+        },
+        {
+            "name": "Patch 2 Question 3",
+            "points": 10
+        },
+        {
+            "name": "Patch 3 Question 1",
+            "points": 10
+        },
+	{
+            "name": "Patch 3 Question 2",
+            "points": 10
+        },
+	{
+            "name": "Patch 4 Question 1",
+            "points": 10
+        },
+	{
+            "name": "Patch 4 Question 2",
+            "points": 10
+        }
+      ]
     }
 ]
