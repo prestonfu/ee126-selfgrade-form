@@ -672,19 +672,19 @@
                 "points": 10
             },
             {
-                "name": "2(a): Dampening Analysis",
+                "name": "2(a) - Part 1: Dampening Analysis",
                 "points": 10
             },
             {
-                "name": "2(a): Critically Dampened Plots",
+                "name": "2(a) - Part 2: Critically Dampened Plots",
                 "points": 5
             },
             {
-                "name": "2(b): Gaussian Noise",
+                "name": "2(b) - Part 1: Gaussian Noise",
                 "points": 5
             },
             {
-                "name": "2(b): Lowpass Behavior",
+                "name": "2(b) - Part 2: Lowpass Behavior",
                 "points": 15
             },
             {
