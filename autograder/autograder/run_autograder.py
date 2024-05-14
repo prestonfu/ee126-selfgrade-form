@@ -58,10 +58,16 @@ def grade():
                 write_result(0, "Malformed question '%s' (did not include comment with a grade of 2, 5, or 8)." % key + generic_error_message)
                 return
 
-            score += int(qn["grade"]) / 10 * float(qn["points"])
+            if assignment_info["completion"]:
+                score += float(qn["points"]) * (int(qn["grade"]) > 0)
+            else:
+                score += int(qn["grade"]) / 10 * float(qn["points"])
             total += float(qn["points"])
-
-        write_result(score, "Your raw score (before scaling) is %0.4f/%d." % (score, total))
+            
+        if assignment_info["completion"]:
+            write_result(score, "Your raw score based on completion (before scaling) is %0.4f/%d." % (score, total))
+        else:
+            write_result(score, "Your raw score (before scaling) is %0.4f/%d." % (score, total))
 
 if __name__ == '__main__':
     grade()
