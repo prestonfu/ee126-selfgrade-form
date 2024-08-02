@@ -1,13 +1,12 @@
-import assignmentData from "./src/data/assignmentData.json"
+import homeworkData from "./src/data/homeworkData.json"
 import path from "path"
-import { AssignmentType } from "./src/types"
 
-exports.createPages = async function ({ actions }) {
-    assignmentData.forEach((assignment: AssignmentType) => {
+exports.createPages = async function ({ actions, graphql }) {
+    homeworkData.forEach(homework => {
       actions.createPage({
-        path: assignment.pageName,
-        component: path.resolve(`./src/components/SelfGradeForm.tsx`),
-        context: { assignment: assignment },
+        path: homework.pageName,
+        component: path.resolve(`./src/components/homeworkForm.tsx`),
+        context: { homework: homework },
       })
     })
   }
