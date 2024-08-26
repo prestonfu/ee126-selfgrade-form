@@ -36,3 +36,8 @@ body {
 .homeworkTable tr:last-child td:last-child {
     border-bottom-right-radius: 10px;
 }
+
+.tableHeader > th {
+  padding: 0.5rem 0.5rem;
+  font-size: large;
+}
