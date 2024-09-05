@@ -13,7 +13,7 @@ export default function Home() {
       </div>
 
       <div className={indexStyles.description}>
-        To learn more about how self-grades work, checkout <ExternalLink href="https://ee120-course-staff.github.io/course-site/policies/#instructions">the course website</ExternalLink>
+        To learn more about how self-grades work, checkout <ExternalLink href="https://ee120-course-staff.github.io/course-site/policies/#self-grades">the course website</ExternalLink>
       </div>
 
       <div>
