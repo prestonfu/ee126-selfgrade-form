@@ -81,7 +81,7 @@ export default function SelfGradeForm({ pageContext }: { pageContext: PageContex
           <div>Here is the gradescope link for this assignment: <ExternalLink href={assignment.gradescopeLink}>Gradescope Link</ExternalLink></div>
           <div>Here is the link to the solutions for this assignment: <ExternalLink href={assignment.solutionsLink}>Solutions Link</ExternalLink></div>
           <div>Self-grade your assignment submission by filling out all the fields. To learn more about self-grades, how they factor into your final assignment grade,
-          and how you should go about them, check out <ExternalLink href="https://ee120-course-staff.github.io/course-site/policies/#self-grades">the course website</ExternalLink>.</div>
+          and how you should go about them, check out <ExternalLink href="https://ee120-course-staff.github.io/policies/#self-grades">the course website</ExternalLink>.</div>
         </div>
         <div>
           <div className={homeworkFormStyles.sectionTitle}>Self-grade rubric</div>
