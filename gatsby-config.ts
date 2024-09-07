@@ -2,7 +2,7 @@ import type { GatsbyConfig } from "gatsby"
 
 const config: GatsbyConfig = {
   siteMetadata: {
-    siteUrl: `https://ee120-course-staff.github.io`,
+    siteUrl: `https://ee126-external.github.io`,
     pathPrefix: "/selfgrade-form"
   },
   // More easily incorporate content into your pages through automatic TypeScript type generation and better GraphQL IntelliSense.
